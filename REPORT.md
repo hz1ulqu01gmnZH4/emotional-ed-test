@@ -433,8 +433,10 @@ These experiments test the full emotional ED architecture:
 | Grief (attachment) | ✓ | Partial (subtle effect) |
 | Cross-emotion Conflict | ✓ | Confirmed |
 | Emotion Regulation | ✓ | Partial (growing advantage) |
-| Disgust | ✗ | Not implemented |
-| Wanting/Liking | ✗ | Not implemented |
+| Disgust | ✓ | Confirmed (Exp 9) |
+| Wanting/Liking | ✓ | Confirmed (Exp 10) |
+| Temporal Dynamics | ✓ | Confirmed (Exp 8) |
+| Transfer | ✓ | Confirmed (Exp 11) |
 
 ## 9. Experiment 7: Multi-Channel Integration
 
