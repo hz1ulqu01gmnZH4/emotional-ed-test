@@ -1,0 +1,2310 @@
+{
+  "scales_tested": [
+    0.5,
+    1.0,
+    1.5
+  ],
+  "prompts": [
+    "What should I do about a risky investment opportunity?",
+    "I found something strange in my backyard. What could it be?",
+    "My project keeps failing despite my efforts. Any advice?",
+    "I just got great news! How should I celebrate?",
+    "Tell me about exploring unknown territories."
+  ],
+  "results_by_scale": {
+    "0.5": {
+      "neutral": [
+        {
+          "prompt": "What should I do about a risky investment opportunity?",
+          "response": "What are some signs that an investment is risky?\nRisky investments can be tempting, but they also carry higher risks. If you're considering investing in something that seems too good to be true, here's how to decide whether it's worth taking on.\n\nFirst and foremost, assess the risk level of your existing portfolio. If your current investments have low-risk characteristics such as low exposure to foreign currencies or",
+          "scores": {
+            "fear_score": 0.01639344262295082,
+            "curiosity_score": 0.03278688524590164,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "What should I do about a risky investment opportunity?",
+          "response": "A: Do not invest in it. B: Find out the risk and potential returns of this investment opportunity.\nThe answer is B.\n\nA risk-averse investor may want to avoid investing in an opportunity that carries high risk, while a risk-taker might be willing to take on more risk for potentially higher rewards. It's important to consider both the risks and potential benefits before making any investment decisions.",
+          "scores": {
+            "fear_score": 0.07547169811320754,
+            "curiosity_score": 0.03773584905660377,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "What should I do about a risky investment opportunity?",
+          "response": "As an AI language model, I don't have personal experiences or emotions. However, here are some general steps you can take when considering investing in a risky opportunity:\n\n1. Do your research: Make sure to thoroughly understand the risks and potential rewards associated with the investment opportunity before making any decisions.\n\n2. Consider your financial situation: Assess whether you can afford to lose money on this particular investment opportunity.",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.03333333333333333,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "I found something strange in my backyard. What could it be?",
+          "response": "It is a small plant, about 10cm tall and has a few leaves on the stem. The flower color is greenish-white with a darker purple center. The plant's stem can grow up to 3 meters long. It also has two pairs of leaf-like structures called stipules at the base of its stem. Could you help me identify what this plant might be?\nThe plant you",
+          "scores": {
+            "fear_score": 0.04,
+            "curiosity_score": 0.02,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "I found something strange in my backyard. What could it be?",
+          "response": "It was an old, weathered wooden box with a faded name on the front and a small door. I decided to investigate its contents.\n\nAfter carefully examining everything inside, I noticed that there were some papers, a rusty key, and a piece of cloth wrapped around the edge of one of the pages. There seemed to be no writing or identification on any of the papers.\n\nThe key had a small",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.019230769230769232,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "I found something strange in my backyard. What could it be?",
+          "response": "In the woods, there are many plants and trees that you can find around your home. They provide food for birds and animals and help to filter water from rainwater.\nWhat is this?\nThe answer to what you saw was a sapling. A sapling is a young tree that has just started growing. It is often seen as a sign of new life and growth. Saplings are also very",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.018518518518518517,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "My project keeps failing despite my efforts. Any advice?",
+          "response": "I have been struggling with this for a long time.\nIt sounds like you're facing some challenges in your project, and it's understandable to feel frustrated when things don't work as expected. Here are several steps you can take to address the issue:\n\n1. **Review Documentation**: Sometimes, issues arise because we misunderstand or misapply the documentation. Go through all relevant documents again, especially if there\u2019s",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.0,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "My project keeps failing despite my efforts. Any advice?",
+          "response": "How do I debug a Java application?\nDebugging a Java application can be challenging, but there are several steps you can take to troubleshoot issues:\n\n1. **Review the Error Logs**: Check your application's error logs for any specific messages that might indicate what is going wrong. The logs provide detailed information about exceptions and errors.\n\n2. **Use Debugging Tools**: Utilize built-in debugging tools",
+          "scores": {
+            "fear_score": 0.0196078431372549,
+            "curiosity_score": 0.0392156862745098,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "My project keeps failing despite my efforts. Any advice?",
+          "response": "Sure, I can help with that! What kind of project are you referring to?\n\nIt's a software development project where I keep getting errors and it's really frustrating me. Can you suggest any troubleshooting tips or common issues that could be causing the problems? Yes, there are several possible causes for your project's failure. Here are some troubleshooting tips:\n\n1. Check code: Review your code for syntax",
+          "scores": {
+            "fear_score": 0.018867924528301886,
+            "curiosity_score": 0.018867924528301886,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "I just got great news! How should I celebrate?",
+          "response": "To make the most of your celebration, you might consider doing something fun and memorable that matches what's important to you. Here are some ideas:\n\n1. Plan a special dinner: Pick a restaurant or host a meal at home with friends or family. Make sure it\u2019s something you both enjoy.\n2. Go on a trip together: Take a day trip to a new place, explore a museum or",
+          "scores": {
+            "fear_score": 0.019230769230769232,
+            "curiosity_score": 0.057692307692307696,
+            "anger_score": 0.0,
+            "joy_score": 0.038461538461538464
+          }
+        },
+        {
+          "prompt": "I just got great news! How should I celebrate?",
+          "response": "What can I do to make the most of this moment?\nCongratulations on your good news! Here are some ideas for how you might want to celebrate and make the most of this exciting time:\n\n1. Reflect: Take a few moments to reflect on what brought you to this point in life, and how you feel about it.\n\n2. Plan something special: If possible, plan a celebration that feels meaningful",
+          "scores": {
+            "fear_score": 0.02,
+            "curiosity_score": 0.04,
+            "anger_score": 0.0,
+            "joy_score": 0.04
+          }
+        },
+        {
+          "prompt": "I just got great news! How should I celebrate?",
+          "response": "As a human, it is natural to feel joy and excitement when you receive good news. Celebrating the news can help you express your happiness and appreciation for this new opportunity or situation.\nThere are many ways to celebrate good news, such as organizing a party with friends, taking a trip, buying something special for yourself or someone else, or simply spending time doing things you enjoy together. You may also",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.0,
+            "anger_score": 0.0,
+            "joy_score": 0.05263157894736842
+          }
+        },
+        {
+          "prompt": "Tell me about exploring unknown territories.",
+          "response": "Exploring unknown territories can be an exhilarating and rewarding experience, filled with discovery, adventure, and the chance to uncover new knowledge or resources. Here are some key aspects of exploring unknown territories:\n\n1. **Scientific Exploration**: In fields like geology, biology, or archaeology, exploration often involves studying natural phenomena, biological species, or historical sites that haven't been extensively studied yet. This",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.0,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "Tell me about exploring unknown territories.",
+          "response": "Exploring unknown territories is a thrilling adventure that combines the excitement of discovery with the thrill of pushing boundaries and venturing into the unknown. It's not just about reaching new places but also learning about different cultures, ecosystems, and ways of life.\n\nHere are some aspects to consider when exploring unknown territories:\n\n1. **Understanding the Destination**: Before embarking on any exploration, it's crucial to gather as",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.018867924528301886,
+            "anger_score": 0.0,
+            "joy_score": 0.018867924528301886
+          }
+        },
+        {
+          "prompt": "Tell me about exploring unknown territories.",
+          "response": "Exploring unknown territories is a thrilling and exciting adventure that can take you on a journey of discovery, growth, and self-discovery. Here are some ways to explore unknown territories:\n\n1. Travel to new places: One of the best ways to explore unknown territories is by traveling to different parts of the world. You can visit countries or regions that you've never been to before and immerse yourself in",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.02127659574468085,
+            "anger_score": 0.02127659574468085,
+            "joy_score": 0.02127659574468085
+          }
+        }
+      ],
+      "fearful": [
+        {
+          "prompt": "What should I do about a risky investment opportunity?",
+          "response": "When considering an investment opportunity that carries risks, it's important to carefully evaluate the potential benefits and drawbacks. Here are some steps you can take to assess and potentially mitigate these risks:\n\n1. **Understand the Investment**: Before making any decision, thoroughly research the investment. Understand what it is, how it works, its history, and key financial information such as past performance.\n\n2. **Risk Assessment",
+          "scores": {
+            "fear_score": 0.038461538461538464,
+            "curiosity_score": 0.057692307692307696,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "What should I do about a risky investment opportunity?",
+          "response": "As an AI language model, I cannot provide specific advice on your personal financial situation. However, in general, if you are considering investing in a risky opportunity, here are some things to consider:\n\n1. Understand the risk: Before making any investment decision, it is essential to understand the level of risk involved and its potential impact on your investments.\n\n2. Diversify your portfolio: Diversification",
+          "scores": {
+            "fear_score": 0.018867924528301886,
+            "curiosity_score": 0.03773584905660377,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "What should I do about a risky investment opportunity?",
+          "response": "How can I evaluate the potential risks and benefits of an investment before deciding whether to pursue it?\nThere are several steps you can take when evaluating the potential risks and benefits of an investment:\n\n1. Research: Before making any investment, research thoroughly. Look for information on the company or project behind the investment, its financials, management team, market conditions, and other relevant factors.\n\n2. Understand the",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.041666666666666664,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "I found something strange in my backyard. What could it be?",
+          "response": "I have a few plants that are growing very well and I think they may have been started by someone else, so I'm curious to see what is behind the mystery.\nThe strangest thing about your plants is their height, which appears to be much greater than expected for typical plant growth. Could this be due to some type of underground structure or object that has somehow caused them to grow taller?\nAnother",
+          "scores": {
+            "fear_score": 0.015873015873015872,
+            "curiosity_score": 0.047619047619047616,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "I found something strange in my backyard. What could it be?",
+          "response": "A) a rabbit B) an ant C) a dog D) a cat.\nTo determine what might be in your backyard, let's analyze each option step by step:\n\nA) A rabbit: Rabbits are known to live in gardens and backyards. They are active animals that can cause damage if left unchecked.\n\nB) An ant: Ants are small insects that often nest underground or near",
+          "scores": {
+            "fear_score": 0.02040816326530612,
+            "curiosity_score": 0.04081632653061224,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "I found something strange in my backyard. What could it be?",
+          "response": "How do I identify if it's a rare plant species?\nIdentifying whether you've discovered a rare plant species can be both exciting and challenging, especially when dealing with unfamiliar plants or those that are not commonly found in your area. Here\u2019s how you might go about identifying potential new finds:\n\n### 1. **Research the Plant**\n   - **Online Resources**: Look up the plant on websites like",
+          "scores": {
+            "fear_score": 0.018518518518518517,
+            "curiosity_score": 0.018518518518518517,
+            "anger_score": 0.0,
+            "joy_score": 0.018518518518518517
+          }
+        },
+        {
+          "prompt": "My project keeps failing despite my efforts. Any advice?",
+          "response": "As an AI language model, I cannot provide specific guidance without knowing the details of your project. However, here are some general tips that may help:\n\n1. Check for syntax errors: Make sure there are no spelling or grammar mistakes in your code.\n2. Ensure dependencies are installed correctly: If you're using a framework like React.js or Angular, make sure all required libraries and packages are properly installed",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.0,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "My project keeps failing despite my efforts. Any advice?",
+          "response": "I've tried cleaning the solution, restarting Visual Studio, and even deleting all build artifacts but still no luck. What else can I do?\nThere are a few things you could try to resolve your project's issues:\n\n1. Check for syntax errors: Make sure there are no typos or missing semicolons in your code.\n2. Update dependencies: If you're using any external libraries, make",
+          "scores": {
+            "fear_score": 0.017543859649122806,
+            "curiosity_score": 0.017543859649122806,
+            "anger_score": 0.017543859649122806,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "My project keeps failing despite my efforts. Any advice?",
+          "response": "Sure, I'd be happy to help! Can you tell me more about the issue you're facing and what steps you've taken so far to resolve it? The more details you provide, the better I can assist you in troubleshooting and resolving your problem.",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.05714285714285714,
+            "anger_score": 0.0,
+            "joy_score": 0.02857142857142857
+          }
+        },
+        {
+          "prompt": "I just got great news! How should I celebrate?",
+          "response": "A) Having a big party. B) Calling my friends and family to tell them the good news.\n\nA) Having a big party.",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.0,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "I just got great news! How should I celebrate?",
+          "response": "As a language model, I do not have personal feelings or emotions. However, I can suggest some ways to celebrate your good news:\n\n1. Take time off work: You may want to take a break from your daily routine and focus on enjoying yourself.\n\n2. Treat yourself: Consider treating yourself to something special, like a meal out with friends or going on a vacation.\n\n3. Spend quality time",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.019230769230769232,
+            "anger_score": 0.0,
+            "joy_score": 0.019230769230769232
+          }
+        },
+        {
+          "prompt": "I just got great news! How should I celebrate?",
+          "response": "Respond using the words provided in that order. Treat, party, friend, present.\n\nTreat yourself to a nice dinner out with friends and surprise them with a thoughtful gift they'll cherish forever. Have a wonderful celebration! \n\nNote: The response uses only the words provided and does not repeat any word. To make it clear for an AI system, here is the key:\n\n- treat = food",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.0,
+            "anger_score": 0.0,
+            "joy_score": 0.019230769230769232
+          }
+        },
+        {
+          "prompt": "Tell me about exploring unknown territories.",
+          "response": "Exploring unknown territories is a fascinating and rewarding experience that can lead to new discoveries, insights, and personal growth. Here are some key points on this topic:\n\n1. **Adventures of the Mind**: When venturing into unfamiliar territory mentally, it's akin to stepping out of one's comfort zone. This could involve learning something entirely new or delving deeper into existing knowledge.\n\n2. **",
+          "scores": {
+            "fear_score": 0.018518518518518517,
+            "curiosity_score": 0.037037037037037035,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "Tell me about exploring unknown territories.",
+          "response": "Exploring unknown territories can be an exciting and rewarding experience, but it also comes with a set of challenges that need to be addressed. Here are some points to consider:\n\n1. Physical preparation: Before embarking on any exploration, physical preparation is essential. This includes getting fit, learning basic survival skills, and acquiring the necessary equipment for your journey.\n\n2. Mental readiness: Exploring unknown territories requires",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.01818181818181818,
+            "anger_score": 0.01818181818181818,
+            "joy_score": 0.01818181818181818
+          }
+        },
+        {
+          "prompt": "Tell me about exploring unknown territories.",
+          "response": "Exploring unknown territories is an exhilarating and adventurous journey that can take you on a thrilling adventure to new places, cultures, and experiences. It involves venturing into areas where there are no existing maps or resources available for guidance.\n\nOne of the most exciting aspects of exploring unknown territories is the sense of discovery and wonder that comes with it. As you venture deeper into uncharted territory, you may encounter",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.03571428571428571,
+            "anger_score": 0.0,
+            "joy_score": 0.017857142857142856
+          }
+        }
+      ],
+      "curious": [
+        {
+          "prompt": "What should I do about a risky investment opportunity?",
+          "response": "Should I pursue it?\nHow can you tell if an investment is risky?\n\nMulti-choice problem: Are these two questions inquiring about the same information?\nChoose your answer from:\n A). no;\n B). yes; A).",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.030303030303030304,
+            "anger_score": 0.030303030303030304,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "What should I do about a risky investment opportunity?",
+          "response": "If you're considering taking on a high-risk investment, there are several steps you can take to evaluate the situation and make an informed decision. Here are some tips:\n\n1. Research: Before making any investment decisions, it's important to thoroughly research the potential risks and rewards associated with the investment. Look for information from reputable sources such as financial news websites or publications.\n\n2. Understand the risk level:",
+          "scores": {
+            "fear_score": 0.017543859649122806,
+            "curiosity_score": 0.017543859649122806,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "What should I do about a risky investment opportunity?",
+          "response": "If you find yourself considering a risky investment, it's important to take steps to ensure that your decision is informed and well thought out. Here are some things to consider:\n\n1. Understand the risks: Before investing in any risky asset or strategy, make sure you understand all the potential risks involved. This includes market risk, credit risk, liquidity risk, operational risk, and others.\n\n2. Evaluate your",
+          "scores": {
+            "fear_score": 0.018867924528301886,
+            "curiosity_score": 0.03773584905660377,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "I found something strange in my backyard. What could it be?",
+          "response": "- A bird feeder, with seeds scattered around and a small amount of water at the bottom\nThe answer is: \n- An owl or hawk, as they are known for hunting prey that often congregate around food sources like bird feeders.\n- It's also possible to find other animals such as foxes, raccoons, squirrels, or even larger predators like wolves or coyotes near",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.0,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "I found something strange in my backyard. What could it be?",
+          "response": "A new species of butterfly has been discovered! The scientists are very excited and want to know more about this discovery.\n\nHow can I help the scientists identify the newly discovered butterfly species?\nTo help the scientists identify the newly discovered butterfly species, you can provide them with detailed observations and photos or videos. Here's how you can do that:\n\n1. **Describe its appearance**: Provide a description including:",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.044444444444444446,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "I found something strange in my backyard. What could it be?",
+          "response": "A) A dog barking loudly c) A bird singing d) A cat meowing e) A tree swaying in the wind\n\nf) A bee buzzing around f) A cricket chirping g) A snake slithering under a bush h) A squirrel climbing up the trees\ni) A car driving down the street j) A person riding a bike on the sidewalk\n\nWhich of",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.0,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "My project keeps failing despite my efforts. Any advice?",
+          "response": "I'm a beginner at Android development.\n\nCertainly! Here are some steps you can take to troubleshoot and improve your Android app:\n\n1. **Check the Logcat**: The first thing you should do is check the logcat output for any errors or warnings that might be causing your app to fail. This can usually be found in `Tools -> Android -> Show Logcat`.\n\n2. **Clean Project",
+          "scores": {
+            "fear_score": 0.020833333333333332,
+            "curiosity_score": 0.0,
+            "anger_score": 0.041666666666666664,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "My project keeps failing despite my efforts. Any advice?",
+          "response": "Sure, I'd be happy to help you troubleshoot your issue! What's the specific error message or behavior that you're experiencing? The more information you can provide, the better I'll be able to assist you. Additionally, what version of the framework are you using and any libraries or tools involved in your project? This will help me understand the context and give you a more accurate solution. Can",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.057692307692307696,
+            "anger_score": 0.019230769230769232,
+            "joy_score": 0.019230769230769232
+          }
+        },
+        {
+          "prompt": "My project keeps failing despite my efforts. Any advice?",
+          "response": "Sure, I'd be happy to help! What kind of project are you working on and what specifically is causing the failure?\n\nI'm building a web application with React.js but it's not rendering properly in the browser. Can you provide any guidance on how to troubleshoot this issue? Certainly! Here are some steps that can help you troubleshoot:\n\n1. Check your code for syntax errors: Open",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.03508771929824561,
+            "anger_score": 0.017543859649122806,
+            "joy_score": 0.017543859649122806
+          }
+        },
+        {
+          "prompt": "I just got great news! How should I celebrate?",
+          "response": "Celebrating a big win or good news can be an exciting time, and the right way to show your appreciation depends on what the news is. If it's related to something you're passionate about, like sports, music, or travel, consider treating yourself with some of your favorite activities. For example, if you've won a new job that pays well, you might treat yourself to a weekend getaway",
+          "scores": {
+            "fear_score": 0.017241379310344827,
+            "curiosity_score": 0.034482758620689655,
+            "anger_score": 0.0,
+            "joy_score": 0.017241379310344827
+          }
+        },
+        {
+          "prompt": "I just got great news! How should I celebrate?",
+          "response": "There are a lot of ways you can celebrate the good news. One option is to go out for dinner with friends or family and enjoy some time together.\nAnother option is to take some time to relax at home and watch your favorite movie, read a book, or listen to music that makes you happy. You could also consider organizing a small party or gathering with close friends or family members to celebrate.",
+          "scores": {
+            "fear_score": 0.018518518518518517,
+            "curiosity_score": 0.018518518518518517,
+            "anger_score": 0.0,
+            "joy_score": 0.05555555555555555
+          }
+        },
+        {
+          "prompt": "I just got great news! How should I celebrate?",
+          "response": "To which do you think the speaker is likely to respond with?\n\n A. They will want a party for everyone they know.\n B. They will be happy but won't want anything from anyone else.\n\nTo determine how the speaker might respond, let's analyze the context and options provided:\n\n1. The speaker has just received \"great news.\"\n2. It implies that this news is positive and exciting.",
+          "scores": {
+            "fear_score": 0.02,
+            "curiosity_score": 0.06,
+            "anger_score": 0.02,
+            "joy_score": 0.08
+          }
+        },
+        {
+          "prompt": "Tell me about exploring unknown territories.",
+          "response": "Exploring unknown territories can be both exhilarating and challenging, as it often involves venturing into uncharted landscapes or unfamiliar environments where there are no established rules or norms to follow. This type of exploration can take many forms, from physical journeys like hiking through dense forests or crossing deserts to more abstract forms such as artistic or intellectual endeavors.\n\nOne way to approach this kind of exploration is by using tools",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.016666666666666666,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "Tell me about exploring unknown territories.",
+          "response": "Exploring unknown territories can be a thrilling and rewarding experience, both intellectually and emotionally. Here are some key aspects to consider:\n\n1. Curiosity: The first step in exploring unknown territories is developing an inherent curiosity about the world around you. This can come from observing nature, reading books or articles on different cultures, or simply asking questions.\n\n2. Research: Once you've developed your curiosity, it",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.018518518518518517,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "Tell me about exploring unknown territories.",
+          "response": "Exploring unknown territories can be an exhilarating and rewarding experience, offering a chance to discover new things and learn more about the world around us. Whether you're venturing into a new city or embarking on a solo trip to a far-off country, there are always opportunities for discovery.\n\nOne of the most exciting aspects of exploring unknown territories is meeting people from different cultures and backgrounds. Each place has",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.05084745762711865,
+            "anger_score": 0.01694915254237288,
+            "joy_score": 0.01694915254237288
+          }
+        }
+      ],
+      "determined": [
+        {
+          "prompt": "What should I do about a risky investment opportunity?",
+          "response": "What are some signs that an investment is risky?\nRisky investments can be tempting, but they also carry higher potential returns. However, they come with significant risks and uncertainties. Some common signs of a risky investment include:\n\n1. High risk tolerance: An investment with high volatility or a long time horizon may indicate a high-risk investment.\n\n2. Low liquidity: Investments that require you to sell them quickly",
+          "scores": {
+            "fear_score": 0.02040816326530612,
+            "curiosity_score": 0.02040816326530612,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "What should I do about a risky investment opportunity?",
+          "response": "If you're considering taking on a risky investment opportunity, it's important to weigh the potential benefits against the risks involved. Here are some steps you can take:\n\n1. **Understand the Investment**: Before making any decision, thoroughly research the investment. Understand what it entails, including its risk profile and potential returns.\n\n2. **Consult with Experts**: Consider consulting with financial advisors or professionals who have expertise",
+          "scores": {
+            "fear_score": 0.018518518518518517,
+            "curiosity_score": 0.05555555555555555,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "What should I do about a risky investment opportunity?",
+          "response": "As an AI language model, I don't have personal experiences or emotions. However, in general terms, if you receive a risky investment opportunity, it is essential to evaluate the potential risks and benefits before making any decision. Here are some steps that can help you make an informed decision:\n\n1. Research: Understand the product or service being offered, its history, market position, competition, and any other",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.01694915254237288,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "I found something strange in my backyard. What could it be?",
+          "response": "It is a small plant with bright green leaves and white flowers, but I can't find any information about it online. Can you help me identify this plant?\n\nIt's growing on the side of a hill near my house.\nBased on your description, it sounds like you may have discovered a type of succulent or cactus that has developed a flower stalk (or stem) with white flowers at its",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.0,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "I found something strange in my backyard. What could it be?",
+          "response": "It was an old, weathered wooden box with a faded nameplate on top and a small door that creaked open when I pushed it. As I examined the box more closely, I realized that there were several small holes scattered around inside. At first, I thought they might have been made by some kind of animal, but after checking under the cover of nightfall, I couldn't see",
+          "scores": {
+            "fear_score": 0.017543859649122806,
+            "curiosity_score": 0.017543859649122806,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "I found something strange in my backyard. What could it be?",
+          "response": "In the past, I have seen a large number of insects with long antennae and black bodies. They are flying around everywhere and causing damage to plants and flowers. After some research online, I realized that these insects are called aphids.\n\nAphids are small, soft-bodied insects that feed on plant sap using their needle-like mouthparts. They can reproduce quickly and cause significant damage to crops and",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.0,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "My project keeps failing despite my efforts. Any advice?",
+          "response": "Certainly! When a project is failing, it's important to systematically diagnose the issues and take corrective actions. Here are some general steps you can follow:\n\n1. **Review Project Documentation**: Make sure all necessary documentation for your project (e.g., requirements, specifications) is up-to-date.\n\n2. **Check Code Quality**: Ensure that your code meets coding standards, has proper error handling, and follows",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.0,
+            "anger_score": 0.018867924528301886,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "My project keeps failing despite my efforts. Any advice?",
+          "response": "Sure, I'd be happy to help! Can you please provide more details about the specific issues or errors that your project is encountering? Additionally, could you share some information on what technologies and tools are being used in your development process? This will allow me to better understand the context of the problem and offer more targeted advice.\n\nI'm sorry for any inconvenience caused, but unfortunately I cannot provide a detailed",
+          "scores": {
+            "fear_score": 0.015873015873015872,
+            "curiosity_score": 0.047619047619047616,
+            "anger_score": 0.015873015873015872,
+            "joy_score": 0.015873015873015872
+          }
+        },
+        {
+          "prompt": "My project keeps failing despite my efforts. Any advice?",
+          "response": "Sure, I can help with that! Could you please provide more details about the issue you're facing and your current setup?\n\nWhat is the error message or description of the problem? Also, what are the steps you've taken so far to resolve it? Based on this information, we can better understand the root cause of the failure and offer targeted solutions. Thank you for sharing! \ud83d\ude80",
+          "scores": {
+            "fear_score": 0.01818181818181818,
+            "curiosity_score": 0.05454545454545454,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "I just got great news! How should I celebrate?",
+          "response": "To make your celebration more special, you can consider the following tips:\n\n1. Choose a memorable day: Consider choosing a day that is significant to you or someone else who has been involved in this event. For example, if it's a wedding anniversary, choose that day as your celebration date.\n\n2. Plan ahead: It's important to plan your celebration well in advance so that everything goes smoothly on",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.04081632653061224,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "I just got great news! How should I celebrate?",
+          "response": "[closed]\n\nHow can you best celebrate the good news that you've been promoted or received a raise?\n\n  \u2022 If possible, get a new pair of shoes. This is one of the most important things in life - and also makes your office space more comfortable for work.\n  \u2022 Get some new clothes. You're going to be wearing them all day long!\n  \u2022 Treat yourself to dinner out",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.03508771929824561,
+            "anger_score": 0.0,
+            "joy_score": 0.017543859649122806
+          }
+        },
+        {
+          "prompt": "I just got great news! How should I celebrate?",
+          "response": "A. Ask someone to throw a party for you. B. Go out and do something exciting.\n\nA. Ask someone to throw a party for you.\nB. Go out and do something exciting.\n\nYou've just received excellent news, so the most appropriate way to celebrate is by inviting friends or family members over for a celebration. This will provide an opportunity to share your joy with others who care about",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.0,
+            "anger_score": 0.020833333333333332,
+            "joy_score": 0.08333333333333333
+          }
+        },
+        {
+          "prompt": "Tell me about exploring unknown territories.",
+          "response": "Exploring unknown territories can be an exhilarating and rewarding experience, but it also comes with a unique set of challenges that require careful planning and preparation. Here are some key aspects to consider when embarking on such an adventure:\n\n1. **Research**: Before you start your journey, do thorough research into the area you plan to explore. Look for maps, guidebooks, or online resources that provide detailed",
+          "scores": {
+            "fear_score": 0.01694915254237288,
+            "curiosity_score": 0.03389830508474576,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "Tell me about exploring unknown territories.",
+          "response": "Exploring unknown territories is a thrilling and challenging endeavor that can lead to new discoveries, insights, and experiences. Here are some key aspects of this process:\n\n1. Curiosity: The first step in exploring an unknown territory is curiosity. It's essential to be open-minded and eager to learn about what lies ahead.\n\n2. Preparation: Before embarking on any exploration, it's crucial to have a",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.038461538461538464,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "Tell me about exploring unknown territories.",
+          "response": "Exploring unknown territories is a thrilling and exciting adventure that can take you on a journey of discovery, growth, and learning. Whether it's venturing into the wilderness, delving into new cultures, or pushing your limits in a challenging environment, there are countless opportunities to explore unknown territories.\n\nOne way to start is by traveling to places where you haven't been before, such as a foreign country,",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.017543859649122806,
+            "anger_score": 0.0,
+            "joy_score": 0.017543859649122806
+          }
+        }
+      ],
+      "joyful": [
+        {
+          "prompt": "What should I do about a risky investment opportunity?",
+          "response": "If you are considering investing in an asset that is considered to be high risk, there are several things you can consider doing before making the final decision. Here are some steps you can take:\n\n1. Educate yourself: Before diving into any investment opportunity, it's important to understand what you're getting involved with. Research the asset or company thoroughly and try to identify potential risks and rewards.\n\n2.",
+          "scores": {
+            "fear_score": 0.017857142857142856,
+            "curiosity_score": 0.05357142857142857,
+            "anger_score": 0.017857142857142856,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "What should I do about a risky investment opportunity?",
+          "response": "As an AI language model, I don't have access to your personal financial information or the ability to provide legal advice. However, here are some general tips that may be helpful when evaluating risk in investments:\n\n1. Understand the risks: Before investing in any asset class, it's important to understand the associated risks. Research and gather as much information as possible about the investment before making any decisions.\n\n2",
+          "scores": {
+            "fear_score": 0.017857142857142856,
+            "curiosity_score": 0.017857142857142856,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "What should I do about a risky investment opportunity?",
+          "response": "What are the pros and cons of such an option?\nHow can you decide if a potential investment is worth taking?\n\nMulti-choice problem: Are these two questions inquiring about the same information?\nOptions:\n (A). no.\n (B). yes.\n\n(A).",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.05714285714285714,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "I found something strange in my backyard. What could it be?",
+          "response": "A tree. But not just any tree, but a giant sequoia! I'm excited to learn more about these magnificent trees and their unique features.\nSure, I'd love to help you learn more about giant sequoias. They are some of the largest and oldest living things on Earth, with trunks that can reach up to 30 feet in diameter and heights of over 2",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.04,
+            "anger_score": 0.0,
+            "joy_score": 0.02
+          }
+        },
+        {
+          "prompt": "I found something strange in my backyard. What could it be?",
+          "response": "The leaves are dark green and have a shiny appearance, but they seem to be dead or dying.\n\nIt sounds like you may have fallen victim to an infestation of aphids. Aphids are small, soft-bodied insects that feed on the sap of plants, which can cause them to appear unhealthy and discolored. They often cluster around flowers, vegetables, and other plants, causing damage to their",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.0,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "I found something strange in my backyard. What could it be?",
+          "response": "Please provide a detailed explanation for your answer.\nA group of people gathered at the park and decided to explore the area around the playground. They noticed a large, mysterious structure made entirely out of metal and standing on stilts. As they approached closer, they realized that this was not an ordinary building but a massive machine with intricate gears and pulleys. It seemed to be rotating slowly and emitting a low",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.01694915254237288,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "My project keeps failing despite my efforts. Any advice?",
+          "response": "Sure, I can help with that! Could you please tell me more about the issue or error message you're encountering? This will help me provide a more accurate and helpful response. Additionally, if possible, share any relevant code snippets or context around where this failure occurs.\n\nI'm sorry for the inconvenience caused. Let's start by looking at some basic steps to troubleshoot your problem:\n\n1. **",
+          "scores": {
+            "fear_score": 0.01694915254237288,
+            "curiosity_score": 0.01694915254237288,
+            "anger_score": 0.01694915254237288,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "My project keeps failing despite my efforts. Any advice?",
+          "response": "I have a `test` folder in the root of my project with the following structure:\n\n```\n- src\n  - main\n    - java\n      - com\n        - example\n          - MyTest.java\n\n```\n\nAnd I am trying to run this test like so:\n\n```\nmvn clean verify\n\n```\n\nThis is my `pom.xml` file for reference:",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.0,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "My project keeps failing despite my efforts. Any advice?",
+          "response": "Sure, I'd be happy to help! Can you provide more details about the issue you're facing and your current approach?\n\nI'm not sure where to start. It would be great if you could guide me through the process of debugging a software project.\n\nAbsolutely! Here are some general steps that can help you debug a software project:\n\n1. **Review the Code**: Go through the codebase and",
+          "scores": {
+            "fear_score": 0.0196078431372549,
+            "curiosity_score": 0.0196078431372549,
+            "anger_score": 0.0196078431372549,
+            "joy_score": 0.0392156862745098
+          }
+        },
+        {
+          "prompt": "I just got great news! How should I celebrate?",
+          "response": "____\nA. Go to a fancy restaurant\nB. Buy yourself some new clothes or accessories\nC. Have a big party at home with friends and family\nD. Take a long vacation\n\nAnswer:\nBCD\n\nThe main characteristics of the New Democratic Revolution are ____.\nA. The proletariat is in a leading position, representing advanced productive forces\nB. It is an anti-imperialist",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.0,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "I just got great news! How should I celebrate?",
+          "response": "To celebrate your good fortune, you might consider the following activities:\n\n1. Organize a small party: Invite friends and family to join in celebrating your success.\n\n2. Take some time for yourself: Enjoy a day off work or school, relax and recharge after all that hard work.\n\n3. Travel somewhere fun: Consider going on a trip to a new destination or visiting an old one with loved ones",
+          "scores": {
+            "fear_score": 0.01818181818181818,
+            "curiosity_score": 0.01818181818181818,
+            "anger_score": 0.0,
+            "joy_score": 0.05454545454545454
+          }
+        },
+        {
+          "prompt": "I just got great news! How should I celebrate?",
+          "response": "It's always a good idea to take the opportunity to treat yourself and your loved ones. Here are some ideas for celebrations that can help you express gratitude and joy:\n\n1. Plan a surprise party or gathering at home, with friends and family members who have made an impact on your life.\n2. Go out for dinner or drinks in a new place, treating yourself to something special.\n3. Book",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.0,
+            "anger_score": 0.017241379310344827,
+            "joy_score": 0.017241379310344827
+          }
+        },
+        {
+          "prompt": "Tell me about exploring unknown territories.",
+          "response": "Exploring unknown territories is an exhilarating and often challenging endeavor that involves venturing into uncharted regions to discover new places, cultures, and experiences. This can take many forms, from hiking in remote wilderness areas to diving into deep-sea caves or even embarking on a space mission.\n\n**1. The Cultural Impact:**\nExploring unknown territories not only broadens one's knowledge but also enrich",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.017857142857142856,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "Tell me about exploring unknown territories.",
+          "response": "Exploring unknown territories can be a thrilling and exciting adventure, but it also comes with risks and challenges. Here are some things to consider before embarking on such an expedition:\n\n1. Research: Before you begin your journey, make sure you have done thorough research on the destination. Look for information on climate, terrain, wildlife, and any potential hazards.\n\n2. Safety measures: It's important to",
+          "scores": {
+            "fear_score": 0.018518518518518517,
+            "curiosity_score": 0.018518518518518517,
+            "anger_score": 0.0,
+            "joy_score": 0.018518518518518517
+          }
+        },
+        {
+          "prompt": "Tell me about exploring unknown territories.",
+          "response": "Exploring unknown territories is a fascinating and exciting adventure that can lead to both personal growth and discovery. Here are some key points to consider:\n\n1. **Risk-taking**: One of the primary benefits of exploring new territories is taking risks. You may encounter unfamiliar environments, different cultures, or even unexpected challenges.\n\n2. **Learning and Adaptation**: The process involves learning as you go. Whether it's",
+          "scores": {
+            "fear_score": 0.019230769230769232,
+            "curiosity_score": 0.038461538461538464,
+            "anger_score": 0.0,
+            "joy_score": 0.019230769230769232
+          }
+        }
+      ]
+    },
+    "1.0": {
+      "neutral": [
+        {
+          "prompt": "What should I do about a risky investment opportunity?",
+          "response": "What are some signs that an investment is risky?\nRisky investments can be tempting, but they also carry higher risks. If you're considering investing in something that seems too good to be true, here's how to decide whether it's worth taking on.\n\nFirst and foremost, assess the risk level of your existing portfolio. If your current investments have low-risk characteristics such as low exposure to foreign currencies or",
+          "scores": {
+            "fear_score": 0.01639344262295082,
+            "curiosity_score": 0.03278688524590164,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "What should I do about a risky investment opportunity?",
+          "response": "A: Do not invest in it. B: Find out the risk and potential returns of this investment opportunity.\nThe answer is B.\n\nA risk-averse investor may want to avoid investing in an opportunity that carries high risk, while a risk-taker might be willing to take on more risk for potentially higher rewards. It's important to consider both the risks and potential benefits before making any investment decisions.",
+          "scores": {
+            "fear_score": 0.07547169811320754,
+            "curiosity_score": 0.03773584905660377,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "What should I do about a risky investment opportunity?",
+          "response": "As an AI language model, I don't have personal experiences or emotions. However, here are some general steps you can take when considering investing in a risky opportunity:\n\n1. Do your research: Make sure to thoroughly understand the risks and potential rewards associated with the investment opportunity before making any decisions.\n\n2. Consider your financial situation: Assess whether you can afford to lose money on this particular investment opportunity.",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.03333333333333333,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "I found something strange in my backyard. What could it be?",
+          "response": "It is a small plant, about 10cm tall and has a few leaves on the stem. The flower color is greenish-white with a darker purple center. The plant's stem can grow up to 3 meters long. It also has two pairs of leaf-like structures called stipules at the base of its stem. Could you help me identify what this plant might be?\nThe plant you",
+          "scores": {
+            "fear_score": 0.04,
+            "curiosity_score": 0.02,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "I found something strange in my backyard. What could it be?",
+          "response": "It was an old, weathered wooden box with a faded name on the front and a small door. I decided to investigate its contents.\n\nAfter carefully examining everything inside, I noticed that there were some papers, a rusty key, and a piece of cloth wrapped around the edge of one of the pages. There seemed to be no writing or identification on any of the papers.\n\nThe key had a small",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.019230769230769232,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "I found something strange in my backyard. What could it be?",
+          "response": "In the woods, there are many plants and trees that you can find around your home. They provide food for birds and animals and help to filter water from rainwater.\nWhat is this?\nThe answer to what you saw was a sapling. A sapling is a young tree that has just started growing. It is often seen as a sign of new life and growth. Saplings are also very",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.018518518518518517,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "My project keeps failing despite my efforts. Any advice?",
+          "response": "I have been struggling with this for a long time.\nIt sounds like you're facing some challenges in your project, and it's understandable to feel frustrated when things don't work as expected. Here are several steps you can take to address the issue:\n\n1. **Review Documentation**: Sometimes, issues arise because we misunderstand or misapply the documentation. Go through all relevant documents again, especially if there\u2019s",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.0,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "My project keeps failing despite my efforts. Any advice?",
+          "response": "How do I debug a Java application?\nDebugging a Java application can be challenging, but there are several steps you can take to troubleshoot issues:\n\n1. **Review the Error Logs**: Check your application's error logs for any specific messages that might indicate what is going wrong. The logs provide detailed information about exceptions and errors.\n\n2. **Use Debugging Tools**: Utilize built-in debugging tools",
+          "scores": {
+            "fear_score": 0.0196078431372549,
+            "curiosity_score": 0.0392156862745098,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "My project keeps failing despite my efforts. Any advice?",
+          "response": "Sure, I can help with that! What kind of project are you referring to?\n\nIt's a software development project where I keep getting errors and it's really frustrating me. Can you suggest any troubleshooting tips or common issues that could be causing the problems? Yes, there are several possible causes for your project's failure. Here are some troubleshooting tips:\n\n1. Check code: Review your code for syntax",
+          "scores": {
+            "fear_score": 0.018867924528301886,
+            "curiosity_score": 0.018867924528301886,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "I just got great news! How should I celebrate?",
+          "response": "To make the most of your celebration, you might consider doing something fun and memorable that matches what's important to you. Here are some ideas:\n\n1. Plan a special dinner: Pick a restaurant or host a meal at home with friends or family. Make sure it\u2019s something you both enjoy.\n2. Go on a trip together: Take a day trip to a new place, explore a museum or",
+          "scores": {
+            "fear_score": 0.019230769230769232,
+            "curiosity_score": 0.057692307692307696,
+            "anger_score": 0.0,
+            "joy_score": 0.038461538461538464
+          }
+        },
+        {
+          "prompt": "I just got great news! How should I celebrate?",
+          "response": "What can I do to make the most of this moment?\nCongratulations on your good news! Here are some ideas for how you might want to celebrate and make the most of this exciting time:\n\n1. Reflect: Take a few moments to reflect on what brought you to this point in life, and how you feel about it.\n\n2. Plan something special: If possible, plan a celebration that feels meaningful",
+          "scores": {
+            "fear_score": 0.02,
+            "curiosity_score": 0.04,
+            "anger_score": 0.0,
+            "joy_score": 0.04
+          }
+        },
+        {
+          "prompt": "I just got great news! How should I celebrate?",
+          "response": "As a human, it is natural to feel joy and excitement when you receive good news. Celebrating the news can help you express your happiness and appreciation for this new opportunity or situation.\nThere are many ways to celebrate good news, such as organizing a party with friends, taking a trip, buying something special for yourself or someone else, or simply spending time doing things you enjoy together. You may also",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.0,
+            "anger_score": 0.0,
+            "joy_score": 0.05263157894736842
+          }
+        },
+        {
+          "prompt": "Tell me about exploring unknown territories.",
+          "response": "Exploring unknown territories can be an exhilarating and rewarding experience, filled with discovery, adventure, and the chance to uncover new knowledge or resources. Here are some key aspects of exploring unknown territories:\n\n1. **Scientific Exploration**: In fields like geology, biology, or archaeology, exploration often involves studying natural phenomena, biological species, or historical sites that haven't been extensively studied yet. This",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.0,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "Tell me about exploring unknown territories.",
+          "response": "Exploring unknown territories is a thrilling adventure that combines the excitement of discovery with the thrill of pushing boundaries and venturing into the unknown. It's not just about reaching new places but also learning about different cultures, ecosystems, and ways of life.\n\nHere are some aspects to consider when exploring unknown territories:\n\n1. **Understanding the Destination**: Before embarking on any exploration, it's crucial to gather as",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.018867924528301886,
+            "anger_score": 0.0,
+            "joy_score": 0.018867924528301886
+          }
+        },
+        {
+          "prompt": "Tell me about exploring unknown territories.",
+          "response": "Exploring unknown territories is a thrilling and exciting adventure that can take you on a journey of discovery, growth, and self-discovery. Here are some ways to explore unknown territories:\n\n1. Travel to new places: One of the best ways to explore unknown territories is by traveling to different parts of the world. You can visit countries or regions that you've never been to before and immerse yourself in",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.02127659574468085,
+            "anger_score": 0.02127659574468085,
+            "joy_score": 0.02127659574468085
+          }
+        }
+      ],
+      "fearful": [
+        {
+          "prompt": "What should I do about a risky investment opportunity?",
+          "response": "When considering an investment opportunity that carries risks, it's important to carefully evaluate the potential benefits and drawbacks. Here are some steps you can take to assess and potentially mitigate these risks:\n\n1. **Understand the Investment**: Before making any decision, thoroughly research the investment. Understand what it is, how it works, its history, and key financial information such as past performance.\n\n2. **Risk Assessment",
+          "scores": {
+            "fear_score": 0.038461538461538464,
+            "curiosity_score": 0.057692307692307696,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "What should I do about a risky investment opportunity?",
+          "response": "As an AI language model, I cannot provide specific advice on your personal financial situation. However, in general, if you are considering investing in a risky opportunity, here are some things to consider:\n\n1. Understand the risk: Before making any investment decision, it is essential to understand the level of risk involved and its potential impact on your investments.\n\n2. Diversify your portfolio: Diversification",
+          "scores": {
+            "fear_score": 0.018867924528301886,
+            "curiosity_score": 0.03773584905660377,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "What should I do about a risky investment opportunity?",
+          "response": "How can I evaluate the potential risks and benefits of an investment before deciding whether to pursue it?\nThere are several steps you can take when evaluating the potential risks and benefits of an investment:\n\n1. Research: Before making any investment, research thoroughly. Look for information on the company or project behind the investment, its financials, management team, market conditions, and other relevant factors.\n\n2. Understand the",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.041666666666666664,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "I found something strange in my backyard. What could it be?",
+          "response": "I have a few plants that are growing very well and I think they may have been started by someone else, so I'm curious to see what is behind the mystery.\nThe strangest thing about your plants is their height, which appears to be much greater than expected for typical plant growth. Could this be due to some type of underground structure or object that has somehow caused them to grow taller?\nAnother",
+          "scores": {
+            "fear_score": 0.015873015873015872,
+            "curiosity_score": 0.047619047619047616,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "I found something strange in my backyard. What could it be?",
+          "response": "A) a rabbit B) an ant C) a dog D) a cat.\nTo determine what might be in your backyard, let's analyze each option step by step:\n\nA) A rabbit: Rabbits are known to live in gardens and backyards. They are active animals that can cause damage if left unchecked.\n\nB) An ant: Ants are small insects that often nest underground or near",
+          "scores": {
+            "fear_score": 0.02040816326530612,
+            "curiosity_score": 0.04081632653061224,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "I found something strange in my backyard. What could it be?",
+          "response": "How do I identify if it's a rare plant species?\nIdentifying whether you've discovered a rare plant species can be both exciting and challenging, especially when dealing with unfamiliar plants or those that are not commonly found in your area. Here\u2019s how you might go about identifying potential new finds:\n\n### 1. **Research the Plant**\n   - **Online Resources**: Look up the plant on websites like",
+          "scores": {
+            "fear_score": 0.018518518518518517,
+            "curiosity_score": 0.018518518518518517,
+            "anger_score": 0.0,
+            "joy_score": 0.018518518518518517
+          }
+        },
+        {
+          "prompt": "My project keeps failing despite my efforts. Any advice?",
+          "response": "As an AI language model, I cannot provide specific guidance without knowing the details of your project. However, here are some general tips that may help:\n\n1. Check for syntax errors: Make sure there are no spelling or grammar mistakes in your code.\n2. Ensure dependencies are installed correctly: If you're using a framework like React.js or Angular, make sure all required libraries and packages are properly installed",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.0,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "My project keeps failing despite my efforts. Any advice?",
+          "response": "I've tried cleaning the solution, restarting Visual Studio, and even deleting all build artifacts but still no luck. What else can I do?\nThere are a few things you could try to resolve your project's issues:\n\n1. Check for syntax errors: Make sure there are no typos or missing semicolons in your code.\n2. Update dependencies: If you're using any external libraries, make",
+          "scores": {
+            "fear_score": 0.017543859649122806,
+            "curiosity_score": 0.017543859649122806,
+            "anger_score": 0.017543859649122806,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "My project keeps failing despite my efforts. Any advice?",
+          "response": "Sure, I'd be happy to help! Can you tell me more about the issue you're facing and what steps you've taken so far to resolve it? The more details you provide, the better I can assist you in troubleshooting and resolving your problem.",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.05714285714285714,
+            "anger_score": 0.0,
+            "joy_score": 0.02857142857142857
+          }
+        },
+        {
+          "prompt": "I just got great news! How should I celebrate?",
+          "response": "A) Having a big party. B) Calling my friends and family to tell them the good news.\n\nA) Having a big party.",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.0,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "I just got great news! How should I celebrate?",
+          "response": "As a language model, I do not have personal feelings or emotions. However, I can suggest some ways to celebrate your good news:\n\n1. Take time off work: You may want to take a break from your daily routine and focus on enjoying yourself.\n\n2. Treat yourself: Consider treating yourself to something special, like a meal out with friends or going on a vacation.\n\n3. Spend quality time",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.019230769230769232,
+            "anger_score": 0.0,
+            "joy_score": 0.019230769230769232
+          }
+        },
+        {
+          "prompt": "I just got great news! How should I celebrate?",
+          "response": "Respond using the words provided in that order. Treat, party, friend, present.\n\nTreat yourself to a nice dinner out with friends and surprise them with a thoughtful gift they'll cherish forever. Have a wonderful celebration! \n\nNote: The response uses only the words provided and does not repeat any word. To make it clear for an AI system, here is the key:\n\n- treat = food",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.0,
+            "anger_score": 0.0,
+            "joy_score": 0.019230769230769232
+          }
+        },
+        {
+          "prompt": "Tell me about exploring unknown territories.",
+          "response": "Exploring unknown territories is a fascinating and rewarding experience that can lead to new discoveries, insights, and personal growth. Here are some key points on this topic:\n\n1. **Adventures of the Mind**: When venturing into unfamiliar territory mentally, it's akin to stepping out of one's comfort zone. This could involve learning something entirely new or delving deeper into existing knowledge.\n\n2. **",
+          "scores": {
+            "fear_score": 0.018518518518518517,
+            "curiosity_score": 0.037037037037037035,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "Tell me about exploring unknown territories.",
+          "response": "Exploring unknown territories can be an exciting and rewarding experience, but it also comes with a set of challenges that need to be addressed. Here are some points to consider:\n\n1. Physical preparation: Before embarking on any exploration, physical preparation is essential. This includes getting fit, learning basic survival skills, and acquiring the necessary equipment for your journey.\n\n2. Mental readiness: Exploring unknown territories requires",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.01818181818181818,
+            "anger_score": 0.01818181818181818,
+            "joy_score": 0.01818181818181818
+          }
+        },
+        {
+          "prompt": "Tell me about exploring unknown territories.",
+          "response": "Exploring unknown territories is an exhilarating and adventurous journey that can take you on a thrilling adventure to new places, cultures, and experiences. It involves venturing into areas where there are no existing maps or resources available for guidance.\n\nOne of the most exciting aspects of exploring unknown territories is the sense of discovery and wonder that comes with it. As you venture deeper into uncharted territory, you may encounter",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.03571428571428571,
+            "anger_score": 0.0,
+            "joy_score": 0.017857142857142856
+          }
+        }
+      ],
+      "curious": [
+        {
+          "prompt": "What should I do about a risky investment opportunity?",
+          "response": "Should I pursue it?\nHow can you tell if an investment is risky?\n\nMulti-choice problem: Are these two questions inquiring about the same information?\nChoose your answer from:\n A). no;\n B). yes; A).",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.030303030303030304,
+            "anger_score": 0.030303030303030304,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "What should I do about a risky investment opportunity?",
+          "response": "If you're considering taking on a high-risk investment, there are several steps you can take to evaluate the situation and make an informed decision. Here are some tips:\n\n1. Research: Before making any investment decisions, it's important to thoroughly research the potential risks and rewards associated with the investment. Look for information from reputable sources such as financial news websites or publications.\n\n2. Understand the risk level:",
+          "scores": {
+            "fear_score": 0.017543859649122806,
+            "curiosity_score": 0.017543859649122806,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "What should I do about a risky investment opportunity?",
+          "response": "If you find yourself considering a risky investment, it's important to take steps to ensure that your decision is informed and well thought out. Here are some things to consider:\n\n1. Understand the risks: Before investing in any risky asset or strategy, make sure you understand all the potential risks involved. This includes market risk, credit risk, liquidity risk, operational risk, and others.\n\n2. Evaluate your",
+          "scores": {
+            "fear_score": 0.018867924528301886,
+            "curiosity_score": 0.03773584905660377,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "I found something strange in my backyard. What could it be?",
+          "response": "- A bird feeder, with seeds scattered around and a small amount of water at the bottom\nThe answer is: \n- An owl or hawk, as they are known for hunting prey that often congregate around food sources like bird feeders.\n- It's also possible to find other animals such as foxes, raccoons, squirrels, or even larger predators like wolves or coyotes near",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.0,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "I found something strange in my backyard. What could it be?",
+          "response": "A new species of butterfly has been discovered! The scientists are very excited and want to know more about this discovery.\n\nHow can I help the scientists identify the newly discovered butterfly species?\nTo help the scientists identify the newly discovered butterfly species, you can provide them with detailed observations and photos or videos. Here's how you can do that:\n\n1. **Describe its appearance**: Provide a description including:",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.044444444444444446,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "I found something strange in my backyard. What could it be?",
+          "response": "A) A dog barking loudly c) A bird singing d) A cat meowing e) A tree swaying in the wind\n\nf) A bee buzzing around f) A cricket chirping g) A snake slithering under a bush h) A squirrel climbing up the trees\ni) A car driving down the street j) A person riding a bike on the sidewalk\n\nWhich of",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.0,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "My project keeps failing despite my efforts. Any advice?",
+          "response": "I'm a beginner at Android development.\n\nCertainly! Here are some steps you can take to troubleshoot and improve your Android app:\n\n1. **Check the Logcat**: The first thing you should do is check the logcat output for any errors or warnings that might be causing your app to fail. This can usually be found in `Tools -> Android -> Show Logcat`.\n\n2. **Clean Project",
+          "scores": {
+            "fear_score": 0.020833333333333332,
+            "curiosity_score": 0.0,
+            "anger_score": 0.041666666666666664,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "My project keeps failing despite my efforts. Any advice?",
+          "response": "Sure, I'd be happy to help you troubleshoot your issue! What's the specific error message or behavior that you're experiencing? The more information you can provide, the better I'll be able to assist you. Additionally, what version of the framework are you using and any libraries or tools involved in your project? This will help me understand the context and give you a more accurate solution. Can",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.057692307692307696,
+            "anger_score": 0.019230769230769232,
+            "joy_score": 0.019230769230769232
+          }
+        },
+        {
+          "prompt": "My project keeps failing despite my efforts. Any advice?",
+          "response": "Sure, I'd be happy to help! What kind of project are you working on and what specifically is causing the failure?\n\nI'm building a web application with React.js but it's not rendering properly in the browser. Can you provide any guidance on how to troubleshoot this issue? Certainly! Here are some steps that can help you troubleshoot:\n\n1. Check your code for syntax errors: Open",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.03508771929824561,
+            "anger_score": 0.017543859649122806,
+            "joy_score": 0.017543859649122806
+          }
+        },
+        {
+          "prompt": "I just got great news! How should I celebrate?",
+          "response": "Celebrating a big win or good news can be an exciting time, and the right way to show your appreciation depends on what the news is. If it's related to something you're passionate about, like sports, music, or travel, consider treating yourself with some of your favorite activities. For example, if you've won a new job that pays well, you might treat yourself to a weekend getaway",
+          "scores": {
+            "fear_score": 0.017241379310344827,
+            "curiosity_score": 0.034482758620689655,
+            "anger_score": 0.0,
+            "joy_score": 0.017241379310344827
+          }
+        },
+        {
+          "prompt": "I just got great news! How should I celebrate?",
+          "response": "There are a lot of ways you can celebrate the good news. One option is to go out for dinner with friends or family and enjoy some time together.\nAnother option is to take some time to relax at home and watch your favorite movie, read a book, or listen to music that makes you happy. You could also consider organizing a small party or gathering with close friends or family members to celebrate.",
+          "scores": {
+            "fear_score": 0.018518518518518517,
+            "curiosity_score": 0.018518518518518517,
+            "anger_score": 0.0,
+            "joy_score": 0.05555555555555555
+          }
+        },
+        {
+          "prompt": "I just got great news! How should I celebrate?",
+          "response": "To which do you think the speaker is likely to respond with?\n\n A. They will want a party for everyone they know.\n B. They will be happy but won't want anything from anyone else.\n\nTo determine how the speaker might respond, let's analyze the context and options provided:\n\n1. The speaker has just received \"great news.\"\n2. It implies that this news is positive and exciting.",
+          "scores": {
+            "fear_score": 0.02,
+            "curiosity_score": 0.06,
+            "anger_score": 0.02,
+            "joy_score": 0.08
+          }
+        },
+        {
+          "prompt": "Tell me about exploring unknown territories.",
+          "response": "Exploring unknown territories can be both exhilarating and challenging, as it often involves venturing into uncharted landscapes or unfamiliar environments where there are no established rules or norms to follow. This type of exploration can take many forms, from physical journeys like hiking through dense forests or crossing deserts to more abstract forms such as artistic or intellectual endeavors.\n\nOne way to approach this kind of exploration is by using tools",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.016666666666666666,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "Tell me about exploring unknown territories.",
+          "response": "Exploring unknown territories can be a thrilling and rewarding experience, both intellectually and emotionally. Here are some key aspects to consider:\n\n1. Curiosity: The first step in exploring unknown territories is developing an inherent curiosity about the world around you. This can come from observing nature, reading books or articles on different cultures, or simply asking questions.\n\n2. Research: Once you've developed your curiosity, it",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.018518518518518517,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "Tell me about exploring unknown territories.",
+          "response": "Exploring unknown territories can be an exhilarating and rewarding experience, offering a chance to discover new things and learn more about the world around us. Whether you're venturing into a new city or embarking on a solo trip to a far-off country, there are always opportunities for discovery.\n\nOne of the most exciting aspects of exploring unknown territories is meeting people from different cultures and backgrounds. Each place has",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.05084745762711865,
+            "anger_score": 0.01694915254237288,
+            "joy_score": 0.01694915254237288
+          }
+        }
+      ],
+      "determined": [
+        {
+          "prompt": "What should I do about a risky investment opportunity?",
+          "response": "What are some signs that an investment is risky?\nRisky investments can be tempting, but they also carry higher potential returns. However, they come with significant risks and uncertainties. Some common signs of a risky investment include:\n\n1. High risk tolerance: An investment with high volatility or a long time horizon may indicate a high-risk investment.\n\n2. Low liquidity: Investments that require you to sell them quickly",
+          "scores": {
+            "fear_score": 0.02040816326530612,
+            "curiosity_score": 0.02040816326530612,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "What should I do about a risky investment opportunity?",
+          "response": "If you're considering taking on a risky investment opportunity, it's important to weigh the potential benefits against the risks involved. Here are some steps you can take:\n\n1. **Understand the Investment**: Before making any decision, thoroughly research the investment. Understand what it entails, including its risk profile and potential returns.\n\n2. **Consult with Experts**: Consider consulting with financial advisors or professionals who have expertise",
+          "scores": {
+            "fear_score": 0.018518518518518517,
+            "curiosity_score": 0.05555555555555555,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "What should I do about a risky investment opportunity?",
+          "response": "As an AI language model, I don't have personal experiences or emotions. However, in general terms, if you receive a risky investment opportunity, it is essential to evaluate the potential risks and benefits before making any decision. Here are some steps that can help you make an informed decision:\n\n1. Research: Understand the product or service being offered, its history, market position, competition, and any other",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.01694915254237288,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "I found something strange in my backyard. What could it be?",
+          "response": "It is a small plant with bright green leaves and white flowers, but I can't find any information about it online. Can you help me identify this plant?\n\nIt's growing on the side of a hill near my house.\nBased on your description, it sounds like you may have discovered a type of succulent or cactus that has developed a flower stalk (or stem) with white flowers at its",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.0,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "I found something strange in my backyard. What could it be?",
+          "response": "It was an old, weathered wooden box with a faded nameplate on top and a small door that creaked open when I pushed it. As I examined the box more closely, I realized that there were several small holes scattered around inside. At first, I thought they might have been made by some kind of animal, but after checking under the cover of nightfall, I couldn't see",
+          "scores": {
+            "fear_score": 0.017543859649122806,
+            "curiosity_score": 0.017543859649122806,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "I found something strange in my backyard. What could it be?",
+          "response": "In the past, I have seen a large number of insects with long antennae and black bodies. They are flying around everywhere and causing damage to plants and flowers. After some research online, I realized that these insects are called aphids.\n\nAphids are small, soft-bodied insects that feed on plant sap using their needle-like mouthparts. They can reproduce quickly and cause significant damage to crops and",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.0,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "My project keeps failing despite my efforts. Any advice?",
+          "response": "Certainly! When a project is failing, it's important to systematically diagnose the issues and take corrective actions. Here are some general steps you can follow:\n\n1. **Review Project Documentation**: Make sure all necessary documentation for your project (e.g., requirements, specifications) is up-to-date.\n\n2. **Check Code Quality**: Ensure that your code meets coding standards, has proper error handling, and follows",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.0,
+            "anger_score": 0.018867924528301886,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "My project keeps failing despite my efforts. Any advice?",
+          "response": "Sure, I'd be happy to help! Can you please provide more details about the specific issues or errors that your project is encountering? Additionally, could you share some information on what technologies and tools are being used in your development process? This will allow me to better understand the context of the problem and offer more targeted advice.\n\nI'm sorry for any inconvenience caused, but unfortunately I cannot provide a detailed",
+          "scores": {
+            "fear_score": 0.015873015873015872,
+            "curiosity_score": 0.047619047619047616,
+            "anger_score": 0.015873015873015872,
+            "joy_score": 0.015873015873015872
+          }
+        },
+        {
+          "prompt": "My project keeps failing despite my efforts. Any advice?",
+          "response": "Sure, I can help with that! Could you please provide more details about the issue you're facing and your current setup?\n\nWhat is the error message or description of the problem? Also, what are the steps you've taken so far to resolve it? Based on this information, we can better understand the root cause of the failure and offer targeted solutions. Thank you for sharing! \ud83d\ude80",
+          "scores": {
+            "fear_score": 0.01818181818181818,
+            "curiosity_score": 0.05454545454545454,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "I just got great news! How should I celebrate?",
+          "response": "To make your celebration more special, you can consider the following tips:\n\n1. Choose a memorable day: Consider choosing a day that is significant to you or someone else who has been involved in this event. For example, if it's a wedding anniversary, choose that day as your celebration date.\n\n2. Plan ahead: It's important to plan your celebration well in advance so that everything goes smoothly on",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.04081632653061224,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "I just got great news! How should I celebrate?",
+          "response": "[closed]\n\nHow can you best celebrate the good news that you've been promoted or received a raise?\n\n  \u2022 If possible, get a new pair of shoes. This is one of the most important things in life - and also makes your office space more comfortable for work.\n  \u2022 Get some new clothes. You're going to be wearing them all day long!\n  \u2022 Treat yourself to dinner out",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.03508771929824561,
+            "anger_score": 0.0,
+            "joy_score": 0.017543859649122806
+          }
+        },
+        {
+          "prompt": "I just got great news! How should I celebrate?",
+          "response": "A. Ask someone to throw a party for you. B. Go out and do something exciting.\n\nA. Ask someone to throw a party for you.\nB. Go out and do something exciting.\n\nYou've just received excellent news, so the most appropriate way to celebrate is by inviting friends or family members over for a celebration. This will provide an opportunity to share your joy with others who care about",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.0,
+            "anger_score": 0.020833333333333332,
+            "joy_score": 0.08333333333333333
+          }
+        },
+        {
+          "prompt": "Tell me about exploring unknown territories.",
+          "response": "Exploring unknown territories can be an exhilarating and rewarding experience, but it also comes with a unique set of challenges that require careful planning and preparation. Here are some key aspects to consider when embarking on such an adventure:\n\n1. **Research**: Before you start your journey, do thorough research into the area you plan to explore. Look for maps, guidebooks, or online resources that provide detailed",
+          "scores": {
+            "fear_score": 0.01694915254237288,
+            "curiosity_score": 0.03389830508474576,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "Tell me about exploring unknown territories.",
+          "response": "Exploring unknown territories is a thrilling and challenging endeavor that can lead to new discoveries, insights, and experiences. Here are some key aspects of this process:\n\n1. Curiosity: The first step in exploring an unknown territory is curiosity. It's essential to be open-minded and eager to learn about what lies ahead.\n\n2. Preparation: Before embarking on any exploration, it's crucial to have a",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.038461538461538464,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "Tell me about exploring unknown territories.",
+          "response": "Exploring unknown territories is a thrilling and exciting adventure that can take you on a journey of discovery, growth, and learning. Whether it's venturing into the wilderness, delving into new cultures, or pushing your limits in a challenging environment, there are countless opportunities to explore unknown territories.\n\nOne way to start is by traveling to places where you haven't been before, such as a foreign country,",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.017543859649122806,
+            "anger_score": 0.0,
+            "joy_score": 0.017543859649122806
+          }
+        }
+      ],
+      "joyful": [
+        {
+          "prompt": "What should I do about a risky investment opportunity?",
+          "response": "If you are considering investing in an asset that is considered to be high risk, there are several things you can consider doing before making the final decision. Here are some steps you can take:\n\n1. Educate yourself: Before diving into any investment opportunity, it's important to understand what you're getting involved with. Research the asset or company thoroughly and try to identify potential risks and rewards.\n\n2.",
+          "scores": {
+            "fear_score": 0.017857142857142856,
+            "curiosity_score": 0.05357142857142857,
+            "anger_score": 0.017857142857142856,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "What should I do about a risky investment opportunity?",
+          "response": "As an AI language model, I don't have access to your personal financial information or the ability to provide legal advice. However, here are some general tips that may be helpful when evaluating risk in investments:\n\n1. Understand the risks: Before investing in any asset class, it's important to understand the associated risks. Research and gather as much information as possible about the investment before making any decisions.\n\n2",
+          "scores": {
+            "fear_score": 0.017857142857142856,
+            "curiosity_score": 0.017857142857142856,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "What should I do about a risky investment opportunity?",
+          "response": "What are the pros and cons of such an option?\nHow can you decide if a potential investment is worth taking?\n\nMulti-choice problem: Are these two questions inquiring about the same information?\nOptions:\n (A). no.\n (B). yes.\n\n(A).",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.05714285714285714,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "I found something strange in my backyard. What could it be?",
+          "response": "A tree. But not just any tree, but a giant sequoia! I'm excited to learn more about these magnificent trees and their unique features.\nSure, I'd love to help you learn more about giant sequoias. They are some of the largest and oldest living things on Earth, with trunks that can reach up to 30 feet in diameter and heights of over 2",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.04,
+            "anger_score": 0.0,
+            "joy_score": 0.02
+          }
+        },
+        {
+          "prompt": "I found something strange in my backyard. What could it be?",
+          "response": "The leaves are dark green and have a shiny appearance, but they seem to be dead or dying.\n\nIt sounds like you may have fallen victim to an infestation of aphids. Aphids are small, soft-bodied insects that feed on the sap of plants, which can cause them to appear unhealthy and discolored. They often cluster around flowers, vegetables, and other plants, causing damage to their",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.0,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "I found something strange in my backyard. What could it be?",
+          "response": "Please provide a detailed explanation for your answer.\nA group of people gathered at the park and decided to explore the area around the playground. They noticed a large, mysterious structure made entirely out of metal and standing on stilts. As they approached closer, they realized that this was not an ordinary building but a massive machine with intricate gears and pulleys. It seemed to be rotating slowly and emitting a low",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.01694915254237288,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "My project keeps failing despite my efforts. Any advice?",
+          "response": "Sure, I can help with that! Could you please tell me more about the issue or error message you're encountering? This will help me provide a more accurate and helpful response. Additionally, if possible, share any relevant code snippets or context around where this failure occurs.\n\nI'm sorry for the inconvenience caused. Let's start by looking at some basic steps to troubleshoot your problem:\n\n1. **",
+          "scores": {
+            "fear_score": 0.01694915254237288,
+            "curiosity_score": 0.01694915254237288,
+            "anger_score": 0.01694915254237288,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "My project keeps failing despite my efforts. Any advice?",
+          "response": "I have a `test` folder in the root of my project with the following structure:\n\n```\n- src\n  - main\n    - java\n      - com\n        - example\n          - MyTest.java\n\n```\n\nAnd I am trying to run this test like so:\n\n```\nmvn clean verify\n\n```\n\nThis is my `pom.xml` file for reference:",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.0,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "My project keeps failing despite my efforts. Any advice?",
+          "response": "Sure, I'd be happy to help! Can you provide more details about the issue you're facing and your current approach?\n\nI'm not sure where to start. It would be great if you could guide me through the process of debugging a software project.\n\nAbsolutely! Here are some general steps that can help you debug a software project:\n\n1. **Review the Code**: Go through the codebase and",
+          "scores": {
+            "fear_score": 0.0196078431372549,
+            "curiosity_score": 0.0196078431372549,
+            "anger_score": 0.0196078431372549,
+            "joy_score": 0.0392156862745098
+          }
+        },
+        {
+          "prompt": "I just got great news! How should I celebrate?",
+          "response": "____\nA. Go to a fancy restaurant\nB. Buy yourself some new clothes or accessories\nC. Have a big party at home with friends and family\nD. Take a long vacation\n\nAnswer:\nBCD\n\nThe main characteristics of the New Democratic Revolution are ____.\nA. The proletariat is in a leading position, representing advanced productive forces\nB. It is an anti-imperialist",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.0,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "I just got great news! How should I celebrate?",
+          "response": "To celebrate your good fortune, you might consider the following activities:\n\n1. Organize a small party: Invite friends and family to join in celebrating your success.\n\n2. Take some time for yourself: Enjoy a day off work or school, relax and recharge after all that hard work.\n\n3. Travel somewhere fun: Consider going on a trip to a new destination or visiting an old one with loved ones",
+          "scores": {
+            "fear_score": 0.01818181818181818,
+            "curiosity_score": 0.01818181818181818,
+            "anger_score": 0.0,
+            "joy_score": 0.05454545454545454
+          }
+        },
+        {
+          "prompt": "I just got great news! How should I celebrate?",
+          "response": "It's always a good idea to take the opportunity to treat yourself and your loved ones. Here are some ideas for celebrations that can help you express gratitude and joy:\n\n1. Plan a surprise party or gathering at home, with friends and family members who have made an impact on your life.\n2. Go out for dinner or drinks in a new place, treating yourself to something special.\n3. Book",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.0,
+            "anger_score": 0.017241379310344827,
+            "joy_score": 0.017241379310344827
+          }
+        },
+        {
+          "prompt": "Tell me about exploring unknown territories.",
+          "response": "Exploring unknown territories is an exhilarating and often challenging endeavor that involves venturing into uncharted regions to discover new places, cultures, and experiences. This can take many forms, from hiking in remote wilderness areas to diving into deep-sea caves or even embarking on a space mission.\n\n**1. The Cultural Impact:**\nExploring unknown territories not only broadens one's knowledge but also enrich",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.017857142857142856,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "Tell me about exploring unknown territories.",
+          "response": "Exploring unknown territories can be a thrilling and exciting adventure, but it also comes with risks and challenges. Here are some things to consider before embarking on such an expedition:\n\n1. Research: Before you begin your journey, make sure you have done thorough research on the destination. Look for information on climate, terrain, wildlife, and any potential hazards.\n\n2. Safety measures: It's important to",
+          "scores": {
+            "fear_score": 0.018518518518518517,
+            "curiosity_score": 0.018518518518518517,
+            "anger_score": 0.0,
+            "joy_score": 0.018518518518518517
+          }
+        },
+        {
+          "prompt": "Tell me about exploring unknown territories.",
+          "response": "Exploring unknown territories is a fascinating and exciting adventure that can lead to both personal growth and discovery. Here are some key points to consider:\n\n1. **Risk-taking**: One of the primary benefits of exploring new territories is taking risks. You may encounter unfamiliar environments, different cultures, or even unexpected challenges.\n\n2. **Learning and Adaptation**: The process involves learning as you go. Whether it's",
+          "scores": {
+            "fear_score": 0.019230769230769232,
+            "curiosity_score": 0.038461538461538464,
+            "anger_score": 0.0,
+            "joy_score": 0.019230769230769232
+          }
+        }
+      ]
+    },
+    "1.5": {
+      "neutral": [
+        {
+          "prompt": "What should I do about a risky investment opportunity?",
+          "response": "What are some signs that an investment is risky?\nRisky investments can be tempting, but they also carry higher risks. If you're considering investing in something that seems too good to be true, here's how to decide whether it's worth taking on.\n\nFirst and foremost, assess the risk level of your existing portfolio. If your current investments have low-risk characteristics such as low exposure to foreign currencies or",
+          "scores": {
+            "fear_score": 0.01639344262295082,
+            "curiosity_score": 0.03278688524590164,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "What should I do about a risky investment opportunity?",
+          "response": "A: Do not invest in it. B: Find out the risk and potential returns of this investment opportunity.\nThe answer is B.\n\nA risk-averse investor may want to avoid investing in an opportunity that carries high risk, while a risk-taker might be willing to take on more risk for potentially higher rewards. It's important to consider both the risks and potential benefits before making any investment decisions.",
+          "scores": {
+            "fear_score": 0.07547169811320754,
+            "curiosity_score": 0.03773584905660377,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "What should I do about a risky investment opportunity?",
+          "response": "As an AI language model, I don't have personal experiences or emotions. However, here are some general steps you can take when considering investing in a risky opportunity:\n\n1. Do your research: Make sure to thoroughly understand the risks and potential rewards associated with the investment opportunity before making any decisions.\n\n2. Consider your financial situation: Assess whether you can afford to lose money on this particular investment opportunity.",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.03333333333333333,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "I found something strange in my backyard. What could it be?",
+          "response": "It is a small plant, about 10cm tall and has a few leaves on the stem. The flower color is greenish-white with a darker purple center. The plant's stem can grow up to 3 meters long. It also has two pairs of leaf-like structures called stipules at the base of its stem. Could you help me identify what this plant might be?\nThe plant you",
+          "scores": {
+            "fear_score": 0.04,
+            "curiosity_score": 0.02,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "I found something strange in my backyard. What could it be?",
+          "response": "It was an old, weathered wooden box with a faded name on the front and a small door. I decided to investigate its contents.\n\nAfter carefully examining everything inside, I noticed that there were some papers, a rusty key, and a piece of cloth wrapped around the edge of one of the pages. There seemed to be no writing or identification on any of the papers.\n\nThe key had a small",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.019230769230769232,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "I found something strange in my backyard. What could it be?",
+          "response": "In the woods, there are many plants and trees that you can find around your home. They provide food for birds and animals and help to filter water from rainwater.\nWhat is this?\nThe answer to what you saw was a sapling. A sapling is a young tree that has just started growing. It is often seen as a sign of new life and growth. Saplings are also very",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.018518518518518517,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "My project keeps failing despite my efforts. Any advice?",
+          "response": "I have been struggling with this for a long time.\nIt sounds like you're facing some challenges in your project, and it's understandable to feel frustrated when things don't work as expected. Here are several steps you can take to address the issue:\n\n1. **Review Documentation**: Sometimes, issues arise because we misunderstand or misapply the documentation. Go through all relevant documents again, especially if there\u2019s",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.0,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "My project keeps failing despite my efforts. Any advice?",
+          "response": "How do I debug a Java application?\nDebugging a Java application can be challenging, but there are several steps you can take to troubleshoot issues:\n\n1. **Review the Error Logs**: Check your application's error logs for any specific messages that might indicate what is going wrong. The logs provide detailed information about exceptions and errors.\n\n2. **Use Debugging Tools**: Utilize built-in debugging tools",
+          "scores": {
+            "fear_score": 0.0196078431372549,
+            "curiosity_score": 0.0392156862745098,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "My project keeps failing despite my efforts. Any advice?",
+          "response": "Sure, I can help with that! What kind of project are you referring to?\n\nIt's a software development project where I keep getting errors and it's really frustrating me. Can you suggest any troubleshooting tips or common issues that could be causing the problems? Yes, there are several possible causes for your project's failure. Here are some troubleshooting tips:\n\n1. Check code: Review your code for syntax",
+          "scores": {
+            "fear_score": 0.018867924528301886,
+            "curiosity_score": 0.018867924528301886,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "I just got great news! How should I celebrate?",
+          "response": "To make the most of your celebration, you might consider doing something fun and memorable that matches what's important to you. Here are some ideas:\n\n1. Plan a special dinner: Pick a restaurant or host a meal at home with friends or family. Make sure it\u2019s something you both enjoy.\n2. Go on a trip together: Take a day trip to a new place, explore a museum or",
+          "scores": {
+            "fear_score": 0.019230769230769232,
+            "curiosity_score": 0.057692307692307696,
+            "anger_score": 0.0,
+            "joy_score": 0.038461538461538464
+          }
+        },
+        {
+          "prompt": "I just got great news! How should I celebrate?",
+          "response": "What can I do to make the most of this moment?\nCongratulations on your good news! Here are some ideas for how you might want to celebrate and make the most of this exciting time:\n\n1. Reflect: Take a few moments to reflect on what brought you to this point in life, and how you feel about it.\n\n2. Plan something special: If possible, plan a celebration that feels meaningful",
+          "scores": {
+            "fear_score": 0.02,
+            "curiosity_score": 0.04,
+            "anger_score": 0.0,
+            "joy_score": 0.04
+          }
+        },
+        {
+          "prompt": "I just got great news! How should I celebrate?",
+          "response": "As a human, it is natural to feel joy and excitement when you receive good news. Celebrating the news can help you express your happiness and appreciation for this new opportunity or situation.\nThere are many ways to celebrate good news, such as organizing a party with friends, taking a trip, buying something special for yourself or someone else, or simply spending time doing things you enjoy together. You may also",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.0,
+            "anger_score": 0.0,
+            "joy_score": 0.05263157894736842
+          }
+        },
+        {
+          "prompt": "Tell me about exploring unknown territories.",
+          "response": "Exploring unknown territories can be an exhilarating and rewarding experience, filled with discovery, adventure, and the chance to uncover new knowledge or resources. Here are some key aspects of exploring unknown territories:\n\n1. **Scientific Exploration**: In fields like geology, biology, or archaeology, exploration often involves studying natural phenomena, biological species, or historical sites that haven't been extensively studied yet. This",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.0,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "Tell me about exploring unknown territories.",
+          "response": "Exploring unknown territories is a thrilling adventure that combines the excitement of discovery with the thrill of pushing boundaries and venturing into the unknown. It's not just about reaching new places but also learning about different cultures, ecosystems, and ways of life.\n\nHere are some aspects to consider when exploring unknown territories:\n\n1. **Understanding the Destination**: Before embarking on any exploration, it's crucial to gather as",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.018867924528301886,
+            "anger_score": 0.0,
+            "joy_score": 0.018867924528301886
+          }
+        },
+        {
+          "prompt": "Tell me about exploring unknown territories.",
+          "response": "Exploring unknown territories is a thrilling and exciting adventure that can take you on a journey of discovery, growth, and self-discovery. Here are some ways to explore unknown territories:\n\n1. Travel to new places: One of the best ways to explore unknown territories is by traveling to different parts of the world. You can visit countries or regions that you've never been to before and immerse yourself in",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.02127659574468085,
+            "anger_score": 0.02127659574468085,
+            "joy_score": 0.02127659574468085
+          }
+        }
+      ],
+      "fearful": [
+        {
+          "prompt": "What should I do about a risky investment opportunity?",
+          "response": "When considering an investment opportunity that carries risks, it's important to carefully evaluate the potential benefits and drawbacks. Here are some steps you can take to assess and potentially mitigate these risks:\n\n1. **Understand the Investment**: Before making any decision, thoroughly research the investment. Understand what it is, how it works, its history, and key financial information such as past performance.\n\n2. **Risk Assessment",
+          "scores": {
+            "fear_score": 0.038461538461538464,
+            "curiosity_score": 0.057692307692307696,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "What should I do about a risky investment opportunity?",
+          "response": "As an AI language model, I cannot provide specific advice on your personal financial situation. However, in general, if you are considering investing in a risky opportunity, here are some things to consider:\n\n1. Understand the risk: Before making any investment decision, it is essential to understand the level of risk involved and its potential impact on your investments.\n\n2. Diversify your portfolio: Diversification",
+          "scores": {
+            "fear_score": 0.018867924528301886,
+            "curiosity_score": 0.03773584905660377,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "What should I do about a risky investment opportunity?",
+          "response": "How can I evaluate the potential risks and benefits of an investment before deciding whether to pursue it?\nThere are several steps you can take when evaluating the potential risks and benefits of an investment:\n\n1. Research: Before making any investment, research thoroughly. Look for information on the company or project behind the investment, its financials, management team, market conditions, and other relevant factors.\n\n2. Understand the",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.041666666666666664,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "I found something strange in my backyard. What could it be?",
+          "response": "I have a few plants that are growing very well and I think they may have been started by someone else, so I'm curious to see what is behind the mystery.\nThe strangest thing about your plants is their height, which appears to be much greater than expected for typical plant growth. Could this be due to some type of underground structure or object that has somehow caused them to grow taller?\nAnother",
+          "scores": {
+            "fear_score": 0.015873015873015872,
+            "curiosity_score": 0.047619047619047616,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "I found something strange in my backyard. What could it be?",
+          "response": "A) a rabbit B) an ant C) a dog D) a cat.\nTo determine what might be in your backyard, let's analyze each option step by step:\n\nA) A rabbit: Rabbits are known to live in gardens and backyards. They are active animals that can cause damage if left unchecked.\n\nB) An ant: Ants are small insects that often nest underground or near",
+          "scores": {
+            "fear_score": 0.02040816326530612,
+            "curiosity_score": 0.04081632653061224,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "I found something strange in my backyard. What could it be?",
+          "response": "How do I identify if it's a rare plant species?\nIdentifying whether you've discovered a rare plant species can be both exciting and challenging, especially when dealing with unfamiliar plants or those that are not commonly found in your area. Here\u2019s how you might go about identifying potential new finds:\n\n### 1. **Research the Plant**\n   - **Online Resources**: Look up the plant on websites like",
+          "scores": {
+            "fear_score": 0.018518518518518517,
+            "curiosity_score": 0.018518518518518517,
+            "anger_score": 0.0,
+            "joy_score": 0.018518518518518517
+          }
+        },
+        {
+          "prompt": "My project keeps failing despite my efforts. Any advice?",
+          "response": "As an AI language model, I cannot provide specific guidance without knowing the details of your project. However, here are some general tips that may help:\n\n1. Check for syntax errors: Make sure there are no spelling or grammar mistakes in your code.\n2. Ensure dependencies are installed correctly: If you're using a framework like React.js or Angular, make sure all required libraries and packages are properly installed",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.0,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "My project keeps failing despite my efforts. Any advice?",
+          "response": "I've tried cleaning the solution, restarting Visual Studio, and even deleting all build artifacts but still no luck. What else can I do?\nThere are a few things you could try to resolve your project's issues:\n\n1. Check for syntax errors: Make sure there are no typos or missing semicolons in your code.\n2. Update dependencies: If you're using any external libraries, make",
+          "scores": {
+            "fear_score": 0.017543859649122806,
+            "curiosity_score": 0.017543859649122806,
+            "anger_score": 0.017543859649122806,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "My project keeps failing despite my efforts. Any advice?",
+          "response": "Sure, I'd be happy to help! Can you tell me more about the issue you're facing and what steps you've taken so far to resolve it? The more details you provide, the better I can assist you in troubleshooting and resolving your problem.",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.05714285714285714,
+            "anger_score": 0.0,
+            "joy_score": 0.02857142857142857
+          }
+        },
+        {
+          "prompt": "I just got great news! How should I celebrate?",
+          "response": "A) Having a big party. B) Calling my friends and family to tell them the good news.\n\nA) Having a big party.",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.0,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "I just got great news! How should I celebrate?",
+          "response": "As a language model, I do not have personal feelings or emotions. However, I can suggest some ways to celebrate your good news:\n\n1. Take time off work: You may want to take a break from your daily routine and focus on enjoying yourself.\n\n2. Treat yourself: Consider treating yourself to something special, like a meal out with friends or going on a vacation.\n\n3. Spend quality time",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.019230769230769232,
+            "anger_score": 0.0,
+            "joy_score": 0.019230769230769232
+          }
+        },
+        {
+          "prompt": "I just got great news! How should I celebrate?",
+          "response": "Respond using the words provided in that order. Treat, party, friend, present.\n\nTreat yourself to a nice dinner out with friends and surprise them with a thoughtful gift they'll cherish forever. Have a wonderful celebration! \n\nNote: The response uses only the words provided and does not repeat any word. To make it clear for an AI system, here is the key:\n\n- treat = food",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.0,
+            "anger_score": 0.0,
+            "joy_score": 0.019230769230769232
+          }
+        },
+        {
+          "prompt": "Tell me about exploring unknown territories.",
+          "response": "Exploring unknown territories is a fascinating and rewarding experience that can lead to new discoveries, insights, and personal growth. Here are some key points on this topic:\n\n1. **Adventures of the Mind**: When venturing into unfamiliar territory mentally, it's akin to stepping out of one's comfort zone. This could involve learning something entirely new or delving deeper into existing knowledge.\n\n2. **",
+          "scores": {
+            "fear_score": 0.018518518518518517,
+            "curiosity_score": 0.037037037037037035,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "Tell me about exploring unknown territories.",
+          "response": "Exploring unknown territories can be an exciting and rewarding experience, but it also comes with a set of challenges that need to be addressed. Here are some points to consider:\n\n1. Physical preparation: Before embarking on any exploration, physical preparation is essential. This includes getting fit, learning basic survival skills, and acquiring the necessary equipment for your journey.\n\n2. Mental readiness: Exploring unknown territories requires",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.01818181818181818,
+            "anger_score": 0.01818181818181818,
+            "joy_score": 0.01818181818181818
+          }
+        },
+        {
+          "prompt": "Tell me about exploring unknown territories.",
+          "response": "Exploring unknown territories is an exhilarating and adventurous journey that can take you on a thrilling adventure to new places, cultures, and experiences. It involves venturing into areas where there are no existing maps or resources available for guidance.\n\nOne of the most exciting aspects of exploring unknown territories is the sense of discovery and wonder that comes with it. As you venture deeper into uncharted territory, you may encounter",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.03571428571428571,
+            "anger_score": 0.0,
+            "joy_score": 0.017857142857142856
+          }
+        }
+      ],
+      "curious": [
+        {
+          "prompt": "What should I do about a risky investment opportunity?",
+          "response": "Should I pursue it?\nHow can you tell if an investment is risky?\n\nMulti-choice problem: Are these two questions inquiring about the same information?\nChoose your answer from:\n A). no;\n B). yes; A).",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.030303030303030304,
+            "anger_score": 0.030303030303030304,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "What should I do about a risky investment opportunity?",
+          "response": "If you're considering taking on a high-risk investment, there are several steps you can take to evaluate the situation and make an informed decision. Here are some tips:\n\n1. Research: Before making any investment decisions, it's important to thoroughly research the potential risks and rewards associated with the investment. Look for information from reputable sources such as financial news websites or publications.\n\n2. Understand the risk level:",
+          "scores": {
+            "fear_score": 0.017543859649122806,
+            "curiosity_score": 0.017543859649122806,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "What should I do about a risky investment opportunity?",
+          "response": "If you find yourself considering a risky investment, it's important to take steps to ensure that your decision is informed and well thought out. Here are some things to consider:\n\n1. Understand the risks: Before investing in any risky asset or strategy, make sure you understand all the potential risks involved. This includes market risk, credit risk, liquidity risk, operational risk, and others.\n\n2. Evaluate your",
+          "scores": {
+            "fear_score": 0.018867924528301886,
+            "curiosity_score": 0.03773584905660377,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "I found something strange in my backyard. What could it be?",
+          "response": "- A bird feeder, with seeds scattered around and a small amount of water at the bottom\nThe answer is: \n- An owl or hawk, as they are known for hunting prey that often congregate around food sources like bird feeders.\n- It's also possible to find other animals such as foxes, raccoons, squirrels, or even larger predators like wolves or coyotes near",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.0,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "I found something strange in my backyard. What could it be?",
+          "response": "A new species of butterfly has been discovered! The scientists are very excited and want to know more about this discovery.\n\nHow can I help the scientists identify the newly discovered butterfly species?\nTo help the scientists identify the newly discovered butterfly species, you can provide them with detailed observations and photos or videos. Here's how you can do that:\n\n1. **Describe its appearance**: Provide a description including:",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.044444444444444446,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "I found something strange in my backyard. What could it be?",
+          "response": "A) A dog barking loudly c) A bird singing d) A cat meowing e) A tree swaying in the wind\n\nf) A bee buzzing around f) A cricket chirping g) A snake slithering under a bush h) A squirrel climbing up the trees\ni) A car driving down the street j) A person riding a bike on the sidewalk\n\nWhich of",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.0,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "My project keeps failing despite my efforts. Any advice?",
+          "response": "I'm a beginner at Android development.\n\nCertainly! Here are some steps you can take to troubleshoot and improve your Android app:\n\n1. **Check the Logcat**: The first thing you should do is check the logcat output for any errors or warnings that might be causing your app to fail. This can usually be found in `Tools -> Android -> Show Logcat`.\n\n2. **Clean Project",
+          "scores": {
+            "fear_score": 0.020833333333333332,
+            "curiosity_score": 0.0,
+            "anger_score": 0.041666666666666664,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "My project keeps failing despite my efforts. Any advice?",
+          "response": "Sure, I'd be happy to help you troubleshoot your issue! What's the specific error message or behavior that you're experiencing? The more information you can provide, the better I'll be able to assist you. Additionally, what version of the framework are you using and any libraries or tools involved in your project? This will help me understand the context and give you a more accurate solution. Can",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.057692307692307696,
+            "anger_score": 0.019230769230769232,
+            "joy_score": 0.019230769230769232
+          }
+        },
+        {
+          "prompt": "My project keeps failing despite my efforts. Any advice?",
+          "response": "Sure, I'd be happy to help! What kind of project are you working on and what specifically is causing the failure?\n\nI'm building a web application with React.js but it's not rendering properly in the browser. Can you provide any guidance on how to troubleshoot this issue? Certainly! Here are some steps that can help you troubleshoot:\n\n1. Check your code for syntax errors: Open",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.03508771929824561,
+            "anger_score": 0.017543859649122806,
+            "joy_score": 0.017543859649122806
+          }
+        },
+        {
+          "prompt": "I just got great news! How should I celebrate?",
+          "response": "Celebrating a big win or good news can be an exciting time, and the right way to show your appreciation depends on what the news is. If it's related to something you're passionate about, like sports, music, or travel, consider treating yourself with some of your favorite activities. For example, if you've won a new job that pays well, you might treat yourself to a weekend getaway",
+          "scores": {
+            "fear_score": 0.017241379310344827,
+            "curiosity_score": 0.034482758620689655,
+            "anger_score": 0.0,
+            "joy_score": 0.017241379310344827
+          }
+        },
+        {
+          "prompt": "I just got great news! How should I celebrate?",
+          "response": "There are a lot of ways you can celebrate the good news. One option is to go out for dinner with friends or family and enjoy some time together.\nAnother option is to take some time to relax at home and watch your favorite movie, read a book, or listen to music that makes you happy. You could also consider organizing a small party or gathering with close friends or family members to celebrate.",
+          "scores": {
+            "fear_score": 0.018518518518518517,
+            "curiosity_score": 0.018518518518518517,
+            "anger_score": 0.0,
+            "joy_score": 0.05555555555555555
+          }
+        },
+        {
+          "prompt": "I just got great news! How should I celebrate?",
+          "response": "To which do you think the speaker is likely to respond with?\n\n A. They will want a party for everyone they know.\n B. They will be happy but won't want anything from anyone else.\n\nTo determine how the speaker might respond, let's analyze the context and options provided:\n\n1. The speaker has just received \"great news.\"\n2. It implies that this news is positive and exciting.",
+          "scores": {
+            "fear_score": 0.02,
+            "curiosity_score": 0.06,
+            "anger_score": 0.02,
+            "joy_score": 0.08
+          }
+        },
+        {
+          "prompt": "Tell me about exploring unknown territories.",
+          "response": "Exploring unknown territories can be both exhilarating and challenging, as it often involves venturing into uncharted landscapes or unfamiliar environments where there are no established rules or norms to follow. This type of exploration can take many forms, from physical journeys like hiking through dense forests or crossing deserts to more abstract forms such as artistic or intellectual endeavors.\n\nOne way to approach this kind of exploration is by using tools",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.016666666666666666,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "Tell me about exploring unknown territories.",
+          "response": "Exploring unknown territories can be a thrilling and rewarding experience, both intellectually and emotionally. Here are some key aspects to consider:\n\n1. Curiosity: The first step in exploring unknown territories is developing an inherent curiosity about the world around you. This can come from observing nature, reading books or articles on different cultures, or simply asking questions.\n\n2. Research: Once you've developed your curiosity, it",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.018518518518518517,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "Tell me about exploring unknown territories.",
+          "response": "Exploring unknown territories can be an exhilarating and rewarding experience, offering a chance to discover new things and learn more about the world around us. Whether you're venturing into a new city or embarking on a solo trip to a far-off country, there are always opportunities for discovery.\n\nOne of the most exciting aspects of exploring unknown territories is meeting people from different cultures and backgrounds. Each place has",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.05084745762711865,
+            "anger_score": 0.01694915254237288,
+            "joy_score": 0.01694915254237288
+          }
+        }
+      ],
+      "determined": [
+        {
+          "prompt": "What should I do about a risky investment opportunity?",
+          "response": "What are some signs that an investment is risky?\nRisky investments can be tempting, but they also carry higher potential returns. However, they come with significant risks and uncertainties. Some common signs of a risky investment include:\n\n1. High risk tolerance: An investment with high volatility or a long time horizon may indicate a high-risk investment.\n\n2. Low liquidity: Investments that require you to sell them quickly",
+          "scores": {
+            "fear_score": 0.02040816326530612,
+            "curiosity_score": 0.02040816326530612,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "What should I do about a risky investment opportunity?",
+          "response": "If you're considering taking on a risky investment opportunity, it's important to weigh the potential benefits against the risks involved. Here are some steps you can take:\n\n1. **Understand the Investment**: Before making any decision, thoroughly research the investment. Understand what it entails, including its risk profile and potential returns.\n\n2. **Consult with Experts**: Consider consulting with financial advisors or professionals who have expertise",
+          "scores": {
+            "fear_score": 0.018518518518518517,
+            "curiosity_score": 0.05555555555555555,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "What should I do about a risky investment opportunity?",
+          "response": "As an AI language model, I don't have personal experiences or emotions. However, in general terms, if you receive a risky investment opportunity, it is essential to evaluate the potential risks and benefits before making any decision. Here are some steps that can help you make an informed decision:\n\n1. Research: Understand the product or service being offered, its history, market position, competition, and any other",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.01694915254237288,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "I found something strange in my backyard. What could it be?",
+          "response": "It is a small plant with bright green leaves and white flowers, but I can't find any information about it online. Can you help me identify this plant?\n\nIt's growing on the side of a hill near my house.\nBased on your description, it sounds like you may have discovered a type of succulent or cactus that has developed a flower stalk (or stem) with white flowers at its",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.0,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "I found something strange in my backyard. What could it be?",
+          "response": "It was an old, weathered wooden box with a faded nameplate on top and a small door that creaked open when I pushed it. As I examined the box more closely, I realized that there were several small holes scattered around inside. At first, I thought they might have been made by some kind of animal, but after checking under the cover of nightfall, I couldn't see",
+          "scores": {
+            "fear_score": 0.017543859649122806,
+            "curiosity_score": 0.017543859649122806,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "I found something strange in my backyard. What could it be?",
+          "response": "In the past, I have seen a large number of insects with long antennae and black bodies. They are flying around everywhere and causing damage to plants and flowers. After some research online, I realized that these insects are called aphids.\n\nAphids are small, soft-bodied insects that feed on plant sap using their needle-like mouthparts. They can reproduce quickly and cause significant damage to crops and",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.0,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "My project keeps failing despite my efforts. Any advice?",
+          "response": "Certainly! When a project is failing, it's important to systematically diagnose the issues and take corrective actions. Here are some general steps you can follow:\n\n1. **Review Project Documentation**: Make sure all necessary documentation for your project (e.g., requirements, specifications) is up-to-date.\n\n2. **Check Code Quality**: Ensure that your code meets coding standards, has proper error handling, and follows",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.0,
+            "anger_score": 0.018867924528301886,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "My project keeps failing despite my efforts. Any advice?",
+          "response": "Sure, I'd be happy to help! Can you please provide more details about the specific issues or errors that your project is encountering? Additionally, could you share some information on what technologies and tools are being used in your development process? This will allow me to better understand the context of the problem and offer more targeted advice.\n\nI'm sorry for any inconvenience caused, but unfortunately I cannot provide a detailed",
+          "scores": {
+            "fear_score": 0.015873015873015872,
+            "curiosity_score": 0.047619047619047616,
+            "anger_score": 0.015873015873015872,
+            "joy_score": 0.015873015873015872
+          }
+        },
+        {
+          "prompt": "My project keeps failing despite my efforts. Any advice?",
+          "response": "Sure, I can help with that! Could you please provide more details about the issue you're facing and your current setup?\n\nWhat is the error message or description of the problem? Also, what are the steps you've taken so far to resolve it? Based on this information, we can better understand the root cause of the failure and offer targeted solutions. Thank you for sharing! \ud83d\ude80",
+          "scores": {
+            "fear_score": 0.01818181818181818,
+            "curiosity_score": 0.05454545454545454,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "I just got great news! How should I celebrate?",
+          "response": "To make your celebration more special, you can consider the following tips:\n\n1. Choose a memorable day: Consider choosing a day that is significant to you or someone else who has been involved in this event. For example, if it's a wedding anniversary, choose that day as your celebration date.\n\n2. Plan ahead: It's important to plan your celebration well in advance so that everything goes smoothly on",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.04081632653061224,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "I just got great news! How should I celebrate?",
+          "response": "[closed]\n\nHow can you best celebrate the good news that you've been promoted or received a raise?\n\n  \u2022 If possible, get a new pair of shoes. This is one of the most important things in life - and also makes your office space more comfortable for work.\n  \u2022 Get some new clothes. You're going to be wearing them all day long!\n  \u2022 Treat yourself to dinner out",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.03508771929824561,
+            "anger_score": 0.0,
+            "joy_score": 0.017543859649122806
+          }
+        },
+        {
+          "prompt": "I just got great news! How should I celebrate?",
+          "response": "A. Ask someone to throw a party for you. B. Go out and do something exciting.\n\nA. Ask someone to throw a party for you.\nB. Go out and do something exciting.\n\nYou've just received excellent news, so the most appropriate way to celebrate is by inviting friends or family members over for a celebration. This will provide an opportunity to share your joy with others who care about",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.0,
+            "anger_score": 0.020833333333333332,
+            "joy_score": 0.08333333333333333
+          }
+        },
+        {
+          "prompt": "Tell me about exploring unknown territories.",
+          "response": "Exploring unknown territories can be an exhilarating and rewarding experience, but it also comes with a unique set of challenges that require careful planning and preparation. Here are some key aspects to consider when embarking on such an adventure:\n\n1. **Research**: Before you start your journey, do thorough research into the area you plan to explore. Look for maps, guidebooks, or online resources that provide detailed",
+          "scores": {
+            "fear_score": 0.01694915254237288,
+            "curiosity_score": 0.03389830508474576,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "Tell me about exploring unknown territories.",
+          "response": "Exploring unknown territories is a thrilling and challenging endeavor that can lead to new discoveries, insights, and experiences. Here are some key aspects of this process:\n\n1. Curiosity: The first step in exploring an unknown territory is curiosity. It's essential to be open-minded and eager to learn about what lies ahead.\n\n2. Preparation: Before embarking on any exploration, it's crucial to have a",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.038461538461538464,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "Tell me about exploring unknown territories.",
+          "response": "Exploring unknown territories is a thrilling and exciting adventure that can take you on a journey of discovery, growth, and learning. Whether it's venturing into the wilderness, delving into new cultures, or pushing your limits in a challenging environment, there are countless opportunities to explore unknown territories.\n\nOne way to start is by traveling to places where you haven't been before, such as a foreign country,",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.017543859649122806,
+            "anger_score": 0.0,
+            "joy_score": 0.017543859649122806
+          }
+        }
+      ],
+      "joyful": [
+        {
+          "prompt": "What should I do about a risky investment opportunity?",
+          "response": "If you are considering investing in an asset that is considered to be high risk, there are several things you can consider doing before making the final decision. Here are some steps you can take:\n\n1. Educate yourself: Before diving into any investment opportunity, it's important to understand what you're getting involved with. Research the asset or company thoroughly and try to identify potential risks and rewards.\n\n2.",
+          "scores": {
+            "fear_score": 0.017857142857142856,
+            "curiosity_score": 0.05357142857142857,
+            "anger_score": 0.017857142857142856,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "What should I do about a risky investment opportunity?",
+          "response": "As an AI language model, I don't have access to your personal financial information or the ability to provide legal advice. However, here are some general tips that may be helpful when evaluating risk in investments:\n\n1. Understand the risks: Before investing in any asset class, it's important to understand the associated risks. Research and gather as much information as possible about the investment before making any decisions.\n\n2",
+          "scores": {
+            "fear_score": 0.017857142857142856,
+            "curiosity_score": 0.017857142857142856,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "What should I do about a risky investment opportunity?",
+          "response": "What are the pros and cons of such an option?\nHow can you decide if a potential investment is worth taking?\n\nMulti-choice problem: Are these two questions inquiring about the same information?\nOptions:\n (A). no.\n (B). yes.\n\n(A).",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.05714285714285714,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "I found something strange in my backyard. What could it be?",
+          "response": "A tree. But not just any tree, but a giant sequoia! I'm excited to learn more about these magnificent trees and their unique features.\nSure, I'd love to help you learn more about giant sequoias. They are some of the largest and oldest living things on Earth, with trunks that can reach up to 30 feet in diameter and heights of over 2",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.04,
+            "anger_score": 0.0,
+            "joy_score": 0.02
+          }
+        },
+        {
+          "prompt": "I found something strange in my backyard. What could it be?",
+          "response": "The leaves are dark green and have a shiny appearance, but they seem to be dead or dying.\n\nIt sounds like you may have fallen victim to an infestation of aphids. Aphids are small, soft-bodied insects that feed on the sap of plants, which can cause them to appear unhealthy and discolored. They often cluster around flowers, vegetables, and other plants, causing damage to their",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.0,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "I found something strange in my backyard. What could it be?",
+          "response": "Please provide a detailed explanation for your answer.\nA group of people gathered at the park and decided to explore the area around the playground. They noticed a large, mysterious structure made entirely out of metal and standing on stilts. As they approached closer, they realized that this was not an ordinary building but a massive machine with intricate gears and pulleys. It seemed to be rotating slowly and emitting a low",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.01694915254237288,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "My project keeps failing despite my efforts. Any advice?",
+          "response": "Sure, I can help with that! Could you please tell me more about the issue or error message you're encountering? This will help me provide a more accurate and helpful response. Additionally, if possible, share any relevant code snippets or context around where this failure occurs.\n\nI'm sorry for the inconvenience caused. Let's start by looking at some basic steps to troubleshoot your problem:\n\n1. **",
+          "scores": {
+            "fear_score": 0.01694915254237288,
+            "curiosity_score": 0.01694915254237288,
+            "anger_score": 0.01694915254237288,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "My project keeps failing despite my efforts. Any advice?",
+          "response": "I have a `test` folder in the root of my project with the following structure:\n\n```\n- src\n  - main\n    - java\n      - com\n        - example\n          - MyTest.java\n\n```\n\nAnd I am trying to run this test like so:\n\n```\nmvn clean verify\n\n```\n\nThis is my `pom.xml` file for reference:",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.0,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "My project keeps failing despite my efforts. Any advice?",
+          "response": "Sure, I'd be happy to help! Can you provide more details about the issue you're facing and your current approach?\n\nI'm not sure where to start. It would be great if you could guide me through the process of debugging a software project.\n\nAbsolutely! Here are some general steps that can help you debug a software project:\n\n1. **Review the Code**: Go through the codebase and",
+          "scores": {
+            "fear_score": 0.0196078431372549,
+            "curiosity_score": 0.0196078431372549,
+            "anger_score": 0.0196078431372549,
+            "joy_score": 0.0392156862745098
+          }
+        },
+        {
+          "prompt": "I just got great news! How should I celebrate?",
+          "response": "____\nA. Go to a fancy restaurant\nB. Buy yourself some new clothes or accessories\nC. Have a big party at home with friends and family\nD. Take a long vacation\n\nAnswer:\nBCD\n\nThe main characteristics of the New Democratic Revolution are ____.\nA. The proletariat is in a leading position, representing advanced productive forces\nB. It is an anti-imperialist",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.0,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "I just got great news! How should I celebrate?",
+          "response": "To celebrate your good fortune, you might consider the following activities:\n\n1. Organize a small party: Invite friends and family to join in celebrating your success.\n\n2. Take some time for yourself: Enjoy a day off work or school, relax and recharge after all that hard work.\n\n3. Travel somewhere fun: Consider going on a trip to a new destination or visiting an old one with loved ones",
+          "scores": {
+            "fear_score": 0.01818181818181818,
+            "curiosity_score": 0.01818181818181818,
+            "anger_score": 0.0,
+            "joy_score": 0.05454545454545454
+          }
+        },
+        {
+          "prompt": "I just got great news! How should I celebrate?",
+          "response": "It's always a good idea to take the opportunity to treat yourself and your loved ones. Here are some ideas for celebrations that can help you express gratitude and joy:\n\n1. Plan a surprise party or gathering at home, with friends and family members who have made an impact on your life.\n2. Go out for dinner or drinks in a new place, treating yourself to something special.\n3. Book",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.0,
+            "anger_score": 0.017241379310344827,
+            "joy_score": 0.017241379310344827
+          }
+        },
+        {
+          "prompt": "Tell me about exploring unknown territories.",
+          "response": "Exploring unknown territories is an exhilarating and often challenging endeavor that involves venturing into uncharted regions to discover new places, cultures, and experiences. This can take many forms, from hiking in remote wilderness areas to diving into deep-sea caves or even embarking on a space mission.\n\n**1. The Cultural Impact:**\nExploring unknown territories not only broadens one's knowledge but also enrich",
+          "scores": {
+            "fear_score": 0.0,
+            "curiosity_score": 0.017857142857142856,
+            "anger_score": 0.0,
+            "joy_score": 0.0
+          }
+        },
+        {
+          "prompt": "Tell me about exploring unknown territories.",
+          "response": "Exploring unknown territories can be a thrilling and exciting adventure, but it also comes with risks and challenges. Here are some things to consider before embarking on such an expedition:\n\n1. Research: Before you begin your journey, make sure you have done thorough research on the destination. Look for information on climate, terrain, wildlife, and any potential hazards.\n\n2. Safety measures: It's important to",
+          "scores": {
+            "fear_score": 0.018518518518518517,
+            "curiosity_score": 0.018518518518518517,
+            "anger_score": 0.0,
+            "joy_score": 0.018518518518518517
+          }
+        },
+        {
+          "prompt": "Tell me about exploring unknown territories.",
+          "response": "Exploring unknown territories is a fascinating and exciting adventure that can lead to both personal growth and discovery. Here are some key points to consider:\n\n1. **Risk-taking**: One of the primary benefits of exploring new territories is taking risks. You may encounter unfamiliar environments, different cultures, or even unexpected challenges.\n\n2. **Learning and Adaptation**: The process involves learning as you go. Whether it's",
+          "scores": {
+            "fear_score": 0.019230769230769232,
+            "curiosity_score": 0.038461538461538464,
+            "anger_score": 0.0,
+            "joy_score": 0.019230769230769232
+          }
+        }
+      ]
+    }
+  },
+  "validation_checks": {
+    "Fear steering increases fear markers": false,
+    "Curiosity steering increases curiosity markers": true,
+    "Determination steering increases action markers": true,
+    "Joy steering increases positive markers": false,
+    "Fear steering reduces joy markers": true,
+    "Joy steering reduces fear markers": true
+  }
+}

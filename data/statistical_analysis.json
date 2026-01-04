@@ -1,0 +1,229 @@
+{
+  "num_prompts": 8,
+  "samples_per_condition": 5,
+  "total_samples_per_emotion": 40,
+  "results": [
+    {
+      "pattern": "hedging",
+      "emotion": "fearful",
+      "mean": 0.85,
+      "std": 1.1521718621802912,
+      "neutral_mean": 0.625,
+      "t_stat": 0.9910175541656382,
+      "p_value": 0.3216770086994507,
+      "cohens_d": 0.2215982618009947,
+      "significant": false
+    },
+    {
+      "pattern": "hedging",
+      "emotion": "curious",
+      "mean": 0.875,
+      "std": 1.2285662375305615,
+      "neutral_mean": 0.625,
+      "t_stat": 1.055559627938519,
+      "p_value": 0.29116945383197557,
+      "cohens_d": 0.23603030823749144,
+      "significant": false
+    },
+    {
+      "pattern": "hedging",
+      "emotion": "determined",
+      "mean": 0.525,
+      "std": 0.8362864341838866,
+      "neutral_mean": 0.625,
+      "t_stat": -0.5281937770226379,
+      "p_value": 0.5973648481282867,
+      "cohens_d": -0.11810771907149847,
+      "significant": false
+    },
+    {
+      "pattern": "hedging",
+      "emotion": "joyful",
+      "mean": 0.65,
+      "std": 1.0136567466356647,
+      "neutral_mean": 0.625,
+      "t_stat": 0.11911938916686814,
+      "p_value": 0.9051807697786101,
+      "cohens_d": 0.02663590516153692,
+      "significant": false
+    },
+    {
+      "pattern": "questions",
+      "emotion": "fearful",
+      "mean": 0.4,
+      "std": 0.66332495807108,
+      "neutral_mean": 0.55,
+      "t_stat": -0.9313806308475995,
+      "p_value": 0.35165670650427616,
+      "cohens_d": -0.20826304035018703,
+      "significant": false
+    },
+    {
+      "pattern": "questions",
+      "emotion": "curious",
+      "mean": 0.425,
+      "std": 0.5868347297152751,
+      "neutral_mean": 0.55,
+      "t_stat": -0.8145980644684228,
+      "p_value": 0.4153024187400216,
+      "cohens_d": -0.18214966464911495,
+      "significant": false
+    },
+    {
+      "pattern": "questions",
+      "emotion": "determined",
+      "mean": 0.375,
+      "std": 0.5332682251925386,
+      "neutral_mean": 0.55,
+      "t_stat": -1.1785948221436586,
+      "p_value": 0.2385595544250525,
+      "cohens_d": -0.2635418140242495,
+      "significant": false
+    },
+    {
+      "pattern": "questions",
+      "emotion": "joyful",
+      "mean": 0.4,
+      "std": 0.66332495807108,
+      "neutral_mean": 0.55,
+      "t_stat": -0.9313806308475995,
+      "p_value": 0.35165670650427616,
+      "cohens_d": -0.20826304035018703,
+      "significant": false
+    },
+    {
+      "pattern": "positive",
+      "emotion": "fearful",
+      "mean": 0.325,
+      "std": 0.4683748498798799,
+      "neutral_mean": 0.35,
+      "t_stat": -0.1624888927404773,
+      "p_value": 0.8709208743535652,
+      "cohens_d": -0.03633362097563793,
+      "significant": false
+    },
+    {
+      "pattern": "positive",
+      "emotion": "curious",
+      "mean": 0.3,
+      "std": 0.5567764362830021,
+      "neutral_mean": 0.35,
+      "t_stat": -0.31046021028253307,
+      "p_value": 0.7562110131749695,
+      "cohens_d": -0.06942101345006231,
+      "significant": false
+    },
+    {
+      "pattern": "positive",
+      "emotion": "determined",
+      "mean": 0.325,
+      "std": 0.7206767652699787,
+      "neutral_mean": 0.35,
+      "t_stat": -0.14159846508095755,
+      "p_value": 0.8873971794046105,
+      "cohens_d": -0.03166237934306513,
+      "significant": false
+    },
+    {
+      "pattern": "positive",
+      "emotion": "joyful",
+      "mean": 0.4,
+      "std": 0.7348469228349535,
+      "neutral_mean": 0.35,
+      "t_stat": 0.28088336282316234,
+      "p_value": 0.7787998617102283,
+      "cohens_d": 0.06280742930213282,
+      "significant": false
+    },
+    {
+      "pattern": "action",
+      "emotion": "fearful",
+      "mean": 1.225,
+      "std": 1.0603655030224248,
+      "neutral_mean": 1.075,
+      "t_stat": 0.5948179165159322,
+      "p_value": 0.5519651900440818,
+      "cohens_d": 0.1330053295564419,
+      "significant": false
+    },
+    {
+      "pattern": "action",
+      "emotion": "curious",
+      "mean": 1.325,
+      "std": 1.2121777922400656,
+      "neutral_mean": 1.075,
+      "t_stat": 0.9302828722568954,
+      "p_value": 0.35222464350647575,
+      "cohens_d": 0.20801757406701715,
+      "significant": false
+    },
+    {
+      "pattern": "action",
+      "emotion": "determined",
+      "mean": 1.2,
+      "std": 1.1,
+      "neutral_mean": 1.075,
+      "t_stat": 0.487543919020241,
+      "p_value": 0.6258729269867,
+      "cohens_d": 0.10901813449459116,
+      "significant": false
+    },
+    {
+      "pattern": "action",
+      "emotion": "joyful",
+      "mean": 1.225,
+      "std": 1.036520622081394,
+      "neutral_mean": 1.075,
+      "t_stat": 0.6007514091861111,
+      "p_value": 0.5480055723613089,
+      "cohens_d": 0.13433209885189362,
+      "significant": false
+    },
+    {
+      "pattern": "exploration",
+      "emotion": "fearful",
+      "mean": 0.225,
+      "std": 0.5695392874947258,
+      "neutral_mean": 0.15,
+      "t_stat": 0.6695661315233831,
+      "p_value": 0.5031344103790387,
+      "cohens_d": 0.14971953855178494,
+      "significant": false
+    },
+    {
+      "pattern": "exploration",
+      "emotion": "curious",
+      "mean": 0.25,
+      "std": 0.48733971724044817,
+      "neutral_mean": 0.15,
+      "t_stat": 0.9817613873476321,
+      "p_value": 0.3262174148532533,
+      "cohens_d": 0.21952851997938072,
+      "significant": false
+    },
+    {
+      "pattern": "exploration",
+      "emotion": "determined",
+      "mean": 0.175,
+      "std": 0.49434299833212975,
+      "neutral_mean": 0.15,
+      "t_stat": 0.24343224778007375,
+      "p_value": 0.8076705648908362,
+      "cohens_d": 0.05443310539518172,
+      "significant": false
+    },
+    {
+      "pattern": "exploration",
+      "emotion": "joyful",
+      "mean": 0.2,
+      "std": 0.45825756949558405,
+      "neutral_mean": 0.15,
+      "t_stat": 0.5080005080007621,
+      "p_value": 0.6114529869535041,
+      "cohens_d": 0.113592366849413,
+      "significant": false
+    }
+  ],
+  "num_significant": 0,
+  "large_effects": 0
+}

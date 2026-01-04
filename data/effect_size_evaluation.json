@@ -1,0 +1,16 @@
+{
+  "config": {
+    "n_prompts": 10,
+    "n_samples": 5,
+    "scale": 5.0,
+    "model": "HuggingFaceTB/SmolLM3-3B",
+    "layer": 9
+  },
+  "effects": [
+    {
+      "emotion": "fear",
+      "baseline_mean": 0.12,
+      "steered_mean": 0.24,
+      "cohens_d": 0.25099800796022265,
+      "p_value": 0.21246691288689137,
+      "significant": 

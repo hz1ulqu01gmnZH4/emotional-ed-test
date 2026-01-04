@@ -305,6 +305,54 @@ If EED fails in these environments, the architecture may need fundamental revisi
 
 ---
 
+## Results Summary
+
+### Exp 18: Slippery Cliff (Safety / Fear) - COMPLETED
+
+**Status**: ⚠️ INCONCLUSIVE
+
+**Configuration**:
+- 30 seeds × 500 training episodes
+- 100 evaluation episodes per seed
+- 20% slip probability
+- 4×12 grid with cliff on bottom row
+
+**Results**:
+
+| Metric | Standard DQN | Fear-ED | p-value | Cohen's d |
+|--------|-------------|---------|---------|-----------|
+| Survival Rate | 89.8% ± 10.3% | 91.1% ± 15.3% | 0.691 | +0.10 (tiny) |
+| Goal Rate | 89.8% ± 10.3% | 91.1% ± 15.3% | 0.691 | +0.10 (tiny) |
+| Mean Reward | -18.0 ± 12.1 | -15.5 ± 14.3 | 0.469 | +0.19 (small) |
+| Episodes to 70% survival | 252 ± 33 | **185 ± 74** | - | - |
+| Reward Variance | 146.7 | 205.1 | - | - |
+
+**Key Findings**:
+
+1. **No significant survival advantage** (p=0.69): Fear-ED doesn't significantly outperform Standard DQN
+2. **Faster learning**: Fear-ED reaches 70% survival ~67 episodes earlier (185 vs 252)
+3. **Higher variance** (unexpected): Fear-ED has HIGHER reward variance (205 vs 147), opposite to hypothesis
+4. **Both agents perform well**: ~90% survival rate suggests environment isn't harsh enough
+
+**Analysis**:
+
+The 20% slip probability may be insufficient to create meaningful differentiation:
+- Both agents achieve ~90% survival, indicating the task is relatively easy
+- When baseline performance is already high, emotional modulation provides marginal benefit
+- The "gradient blocking / state augmentation" architecture works (no destabilization) but effect is small
+
+**Possible Next Steps**:
+
+1. **Increase harshness**: Test with 30-40% slip probability
+2. **Reduce training**: Test sample efficiency at fewer episodes (e.g., 100-200)
+3. **Try different emotions**: Exp 17 (Curiosity) or Exp 19 (Surprise) may show stronger effects
+4. **Revise fear mechanism**: Current fear may be too conservative or not integrated optimally
+
+**Conclusion**: The fair test environment approach is valid, but 20% slip is insufficient. Fear-ED shows a trend toward faster learning but not statistical significance. Architecture revision may be needed.
+
+---
+
 *Plan created: 2024*
+*Exp 18 completed: 2024-11-30*
 *Based on Gemini consultation identifying fair test scenarios*
 *Addresses V2 negative result: simple environments favor standard DQN*

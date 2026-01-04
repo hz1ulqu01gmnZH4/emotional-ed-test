@@ -1,0 +1,15 @@
+{
+  "name": "casual",
+  "description": "Steering vector for casual behavior",
+  "tags": [
+    "style"
+  ],
+  "intensity_range": [
+    0.0,
+    2.0
+  ],
+  "shape": [
+    30,
+    576
+  ]
+}

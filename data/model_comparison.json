@@ -1,0 +1,8 @@
+{
+  "Qwen/Qwen2.5-0.5B-Instruct": {
+    "error": "can only concatenate tuple (not \"Tensor\") to tuple"
+  },
+  "Qwen/Qwen2.5-1.5B-Instruct": {
+    "error": "can only concatenate tuple (not \"Tensor\") to tuple"
+  }
+}

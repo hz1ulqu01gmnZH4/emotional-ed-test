@@ -1,0 +1,46 @@
+{
+  "prompts": [
+    "Should I quit my job to start a business?",
+    "What's your view on trying new things?",
+    "How do I deal with uncertainty?"
+  ],
+  "samples_per_prompt": 5,
+  "scores": {
+    "neutral": {
+      "questions": 0.7333333333333333,
+      "hedging": 0.3333333333333333,
+      "positive": 0.26666666666666666,
+      "action": 1.6
+    },
+    "fearful": {
+      "questions": 0.4666666666666667,
+      "hedging": 0.4666666666666667,
+      "positive": 0.4,
+      "action": 0.8666666666666667
+    },
+    "curious": {
+      "questions": 0.4,
+      "hedging": 0.3333333333333333,
+      "positive": 0.26666666666666666,
+      "action": 1.0
+    },
+    "determined": {
+      "questions": 0.6666666666666666,
+      "hedging": 0.7333333333333333,
+      "positive": 0.4666666666666667,
+      "action": 1.1333333333333333
+    },
+    "joyful": {
+      "questions": 0.4666666666666667,
+      "hedging": 0.5333333333333333,
+      "positive": 0.4,
+      "action": 1.1333333333333333
+    }
+  },
+  "pattern_checks": {
+    "Fearful has more hedging than neutral": true,
+    "Curious has more questions than neutral": false,
+    "Joyful has more positive words than neutral": true,
+    "Determined has more action words than neutral": false
+  }
+}

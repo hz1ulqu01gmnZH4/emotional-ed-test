@@ -26,9 +26,12 @@ try:
     import torch.optim as optim
     import torch.nn.functional as F
     TORCH_AVAILABLE = True
-except ImportError:
-    TORCH_AVAILABLE = False
-    print("PyTorch not available. Install with: uv pip install torch")
+except ImportError as e:
+    raise ImportError(
+        "PyTorch is REQUIRED for this experiment. "
+        "Install with: uv pip install torch\n"
+        f"Original error: {e}"
+    ) from e
 
 
 @dataclass
@@ -554,7 +557,8 @@ def main():
     def cohens_d(x, y):
         nx, ny = len(x), len(y)
         pooled_std = np.sqrt(((nx-1)*np.std(x)**2 + (ny-1)*np.std(y)**2) / (nx+ny-2))
-        return (np.mean(x) - np.mean(y)) / pooled_std if pooled_std > 0 else 0
+        assert pooled_std > 0, f"BUG: pooled_std is 0 - data has no variance (x={x}, y={y})"
+        return (np.mean(x) - np.mean(y)) / pooled_std
 
     # Permutation test
     def permutation_test(x, y, n_perm=1000):
@@ -588,8 +592,10 @@ def main():
     print("SUMMARY")
     print("=" * 70)
 
-    threat_speedup = np.mean(std_threat_eps) / np.mean(emo_threat_eps) if np.mean(emo_threat_eps) > 0 else 0
-    reward_speedup = np.mean(std_reward_eps) / np.mean(emo_reward_eps) if np.mean(emo_reward_eps) > 0 else 0
+    assert np.mean(emo_threat_eps) > 0, "BUG: Emotional agent never reached threat criterion"
+    assert np.mean(emo_reward_eps) > 0, "BUG: Emotional agent never reached reward criterion"
+    threat_speedup = np.mean(std_threat_eps) / np.mean(emo_threat_eps)
+    reward_speedup = np.mean(std_reward_eps) / np.mean(emo_reward_eps)
 
     print(f"\n{'Metric':<25} {'Speedup':<15} {'Effect Size':<15} {'p-value':<10}")
     print("-" * 65)

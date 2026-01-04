@@ -1,0 +1,40 @@
+{
+  "config": {
+    "n_samples": 30,
+    "model": "gpt2",
+    "prefix_length": 10,
+    "approach": "emotional_prefix_tuning"
+  },
+  "summary": [
+    {
+      "emotion": "fear",
+      "d": 0.0,
+      "p": 1.0,
+      "effect": "NEGLIGIBLE",
+      "significant": false
+    },
+    {
+      "emotion": "joy",
+      "d": 0.25819888974716115,
+      "p": 0.3214643831208154,
+      "effect": "SMALL",
+      "significant": 0.0
+    },
+    {
+      "emotion": "curiosity",
+      "d": 0.0,
+      "p": 1.0,
+      "effect": "NEGLIGIBLE",
+      "significant": false
+    },
+    {
+      "emotion": "anger",
+      "d": 0.0,
+      "p": 1.0,
+      "effect": "NEGLIGIBLE",
+      "significant": false
+    }
+  ],
+  "verdict": "NOT MEANINGFUL",
+  "avg_d": 0.06454972243679029
+}

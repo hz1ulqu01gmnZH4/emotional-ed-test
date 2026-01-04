@@ -29,6 +29,7 @@ class StandardQLearner:
         self.Q[state, action] += self.lr * (target - self.Q[state, action])
 
     def reset_episode(self):
+        # Intentionally empty - standard Q-learner has no emotional state to reset
         pass
 
     def get_emotional_state(self) -> Dict:
@@ -136,7 +137,10 @@ class TonicMoodAgent:
     def _update_mood(self, context: TemporalEmotionalContext):
         """Update tonic mood based on cumulative experience."""
         # Mood shifts based on recent cumulative experience
-        recent_valence = context.cumulative_reward / max(1, len(context.cumulative_reward) if isinstance(context.cumulative_reward, list) else 20)
+        # cumulative_reward is sum of last 20 rewards (float), divide by window size
+        # Use episode_length capped at 20 to handle early-episode correctly
+        window_size = max(1, min(context.episode_length, 20))
+        recent_valence = context.cumulative_reward / window_size
 
         # Sustained negative shifts mood down
         if context.consecutive_negative > 5:
@@ -195,7 +199,8 @@ class TonicMoodAgent:
         self.Q[state, action] += self.lr * (target - self.Q[state, action])
 
     def reset_episode(self):
-        # Mood persists across episodes (key difference from phasic)
+        # Intentionally empty - mood persists across episodes (key difference from phasic)
+        # This is deliberate: tonic mood represents slow-changing baseline that doesn't reset
         pass
 
     def get_emotional_state(self) -> Dict:

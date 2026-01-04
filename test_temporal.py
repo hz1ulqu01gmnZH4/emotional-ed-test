@@ -49,12 +49,19 @@ def run_episode(env: TemporalGridWorld, agent, max_steps: int = 100):
             break
         state = next_state
 
+    # Extract final mood with explicit assertion
+    final_mood = 0
+    if emotional_states:
+        final_state = emotional_states[-1]
+        assert 'mood' in final_state, f"BUG: Emotional state missing 'mood' key: {final_state}"
+        final_mood = final_state['mood']
+
     return {
         'total_reward': total_reward,
         'steps': step + 1,
         'phase': phase,
         'emotional_states': emotional_states,
-        'final_mood': emotional_states[-1].get('mood', 0) if emotional_states else 0
+        'final_mood': final_mood
     }
 
 
@@ -76,15 +83,25 @@ def run_phase_experiment(agent_class, n_cycles: int = 3, phase_length: int = 50,
         phase = env.get_phase()
 
         if hasattr(agent, 'get_emotional_state'):
-            current_mood = agent.get_emotional_state().get('mood', 0)
+            emotional_state = agent.get_emotional_state()
+            assert 'mood' in emotional_state, f"BUG: Agent {agent.__class__.__name__} emotional state missing 'mood' key"
+            current_mood = emotional_state['mood']
 
         phase_moods[phase].append(current_mood)
         phase_rewards[phase].append(result['total_reward'])
 
+    # Assert data was collected - empty lists indicate a bug
+    assert all(m for m in phase_moods.values()), \
+        f"BUG: Empty mood data in phases: {[p for p, m in phase_moods.items() if not m]}"
+    assert all(r for r in phase_rewards.values()), \
+        f"BUG: Empty reward data in phases: {[p for p, r in phase_rewards.items() if not r]}"
+    assert hasattr(agent, 'get_mood_history'), \
+        f"BUG: Agent {type(agent).__name__} missing get_mood_history method"
+
     return {
-        'phase_moods': {p: np.mean(m) if m else 0 for p, m in phase_moods.items()},
-        'phase_rewards': {p: np.mean(r) if r else 0 for p, r in phase_rewards.items()},
-        'mood_history': agent.get_mood_history() if hasattr(agent, 'get_mood_history') else []
+        'phase_moods': {p: np.mean(m) for p, m in phase_moods.items()},
+        'phase_rewards': {p: np.mean(r) for p, r in phase_rewards.items()},
+        'mood_history': agent.get_mood_history()
     }
 
 
@@ -138,7 +155,9 @@ def test_mood_persistence():
             next_state, reward, done, context = env.step(action)
             agent.update(state, action, reward, next_state, done, context)
 
-            mood = agent.get_emotional_state().get('mood', 0)
+            emotional_state = agent.get_emotional_state()
+            assert 'mood' in emotional_state, f"BUG: Agent {name} emotional state missing 'mood' key"
+            mood = emotional_state['mood']
             mood_traces[name].append(mood)
 
             if done:

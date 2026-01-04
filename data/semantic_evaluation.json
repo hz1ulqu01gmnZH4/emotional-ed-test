@@ -1,0 +1,39 @@
+{
+  "config": {
+    "n_samples": 50,
+    "scale": 5.0,
+    "lexicon": "broad"
+  },
+  "summary": [
+    {
+      "emotion": "fear",
+      "d": 1.0801234497346432,
+      "p": 4.6472638384772393e-07,
+      "effect": "LARGE",
+      "significant": 1.0
+    },
+    {
+      "emotion": "joy",
+      "d": 0.6340666802179772,
+      "p": 0.002032411390504483,
+      "effect": "MEDIUM",
+      "significant": 1.0
+    },
+    {
+      "emotion": "curiosity",
+      "d": 1.0981272276342797,
+      "p": 3.1525424136433126e-07,
+      "effect": "LARGE",
+      "significant": 1.0
+    },
+    {
+      "emotion": "anger",
+      "d": 0.8342314001435736,
+      "p": 6.554853584366698e-05,
+      "effect": "LARGE",
+      "significant": 1.0
+    }
+  ],
+  "verdict": "MEANINGFUL",
+  "avg_d": 0.9116371894326185
+}

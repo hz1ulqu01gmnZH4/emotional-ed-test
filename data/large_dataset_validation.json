@@ -1,0 +1,29 @@
+{
+  "summary": {
+    "baseline": {
+      "fear": 0.625,
+      "curiosity": 1.025,
+      "anger": 0.475,
+      "joy": 0.175,
+      "total": 2.3
+    },
+    "80_pairs": {
+      "fear": 0.825,
+      "curiosity": 0.925,
+      "anger": 0.5,
+      "joy": 0.2,
+      "total": 2.45
+    },
+    "800_pairs": {
+      "fear": 0.7,
+      "curiosity": 0.975,
+      "anger": 0.525,
+      "joy": 0.2,
+      "total": 2.4
+    }
+  },
+  "wins_800": 0,
+  "wins_80": 1,
+  "avg_d_80": 0.10369381310613118,
+  "avg_d_800": 0.06492012306664204
+}

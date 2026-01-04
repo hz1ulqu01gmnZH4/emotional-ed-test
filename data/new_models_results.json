@@ -1,0 +1,16 @@
+[
+  {
+    "model": "HuggingFaceTB/SmolLM3-3B",
+    "best_layer": 9,
+    "best_scale": 5.0,
+    "avg_d": 0.41658407990010515,
+    "verdict": "SMALL-MEDIUM"
+  },
+  {
+    "model": "Qwen/Qwen3-4B",
+    "best_layer": 18,
+    "best_scale": 7.0,
+    "avg_d": 0.3275645248931275,
+    "verdict": "SMALL-MEDIUM"
+  }
+]

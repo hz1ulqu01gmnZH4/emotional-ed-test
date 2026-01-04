@@ -1,0 +1,15 @@
+{
+  "name": "joy",
+  "description": "Steering vector for joy behavior",
+  "tags": [
+    "emotion"
+  ],
+  "intensity_range": [
+    0.0,
+    2.0
+  ],
+  "shape": [
+    30,
+    576
+  ]
+}
